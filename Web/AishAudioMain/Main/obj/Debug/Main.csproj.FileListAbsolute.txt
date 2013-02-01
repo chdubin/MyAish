@@ -1,0 +1,94 @@
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Main.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Main.pdb
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\BLToolkit.3.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainBL.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Microsoft.Practices.Unity.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.WatiN.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\taglib-sharp.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainBL.pdb
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.pdb
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.pdb
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.xml
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.xml
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.xml
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.xml
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.dll
+D:\Projects\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.pdb
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Main.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Main.pdb
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\BLToolkit.3.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainBL.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Microsoft.Practices.Unity.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.WatiN.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\taglib-sharp.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainBL.pdb
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.pdb
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.pdb
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.xml
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.xml
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.xml
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.xml
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\ResolveAssemblyReference.cache
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.dll
+D:\Projects\github\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.pdb
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Main.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Main.pdb
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\BLToolkit.3.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainBL.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Microsoft.Practices.ObjectBuilder2.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\Microsoft.Practices.Unity.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.WatiN.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\taglib-sharp.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainBL.pdb
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.pdb
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.pdb
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.xml
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.xml
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.xml
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.xml
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\ResolveAssemblyReference.cache
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.dll
+D:\Stack\aishaudio\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\Main.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\Main.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\BLToolkit.3.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MainBL.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.WatiN.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\taglib-sharp.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MainBL.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MainCommon.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MainEntity.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\AWSSDK.xml
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.xml
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.FluentHtml.xml
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\bin\MvcContrib.TestHelper.xml
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.csprojResolveAssemblyReference.cache
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Web\AishAudioMain\Main\obj\Debug\Main.pdb

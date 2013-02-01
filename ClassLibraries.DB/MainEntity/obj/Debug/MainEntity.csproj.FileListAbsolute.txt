@@ -1,0 +1,18 @@
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainEntity.dll.config
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainEntity.dll
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainEntity.pdb
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\BLToolkit.3.dll
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainCommon.dll
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainCommon.pdb
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\obj\Debug\ResolveAssemblyReference.cache
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\obj\Debug\MainEntity.dll
+D:\Stack\aishaudio\AishAudio\ClassLibraries.DB\MainEntity\obj\Debug\MainEntity.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainEntity.dll.config
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainEntity.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainEntity.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\BLToolkit.3.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainCommon.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\bin\Debug\MainCommon.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\obj\Debug\MainEntity.csprojResolveAssemblyReference.cache
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\obj\Debug\MainEntity.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.DB\MainEntity\obj\Debug\MainEntity.pdb

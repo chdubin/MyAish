@@ -1,0 +1,4 @@
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.External\AmazonS3_AWS_SDK\bin\Release\AmazonS3_AWS_SDK.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.External\AmazonS3_AWS_SDK\bin\Release\AmazonS3_AWS_SDK.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.External\AmazonS3_AWS_SDK\obj\x86\Release\AmazonS3_AWS_SDK.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.External\AmazonS3_AWS_SDK\obj\x86\Release\AmazonS3_AWS_SDK.pdb

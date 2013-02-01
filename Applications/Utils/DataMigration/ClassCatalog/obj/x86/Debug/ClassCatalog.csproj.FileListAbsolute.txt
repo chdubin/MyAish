@@ -1,0 +1,28 @@
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\ClassCatalog.exe.config
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\from_site.csv
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\ClassCatalog.exe
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\ClassCatalog.pdb
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\BLToolkit.3.dll
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainBL.dll
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainCommon.dll
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainEntity.dll
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainBL.pdb
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainCommon.pdb
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainEntity.pdb
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\obj\x86\Debug\ClassCatalog.exe
+C:\Users\1\Desktop\AishAudio\Applications\Utils\DataMigration\ClassCatalog\obj\x86\Debug\ClassCatalog.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\ClassCatalog.exe.config
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\obj\x86\Debug\ClassCatalog.exe
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\obj\x86\Debug\ClassCatalog.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\from_site.csv
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\ClassCatalog.exe
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\ClassCatalog.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\BLToolkit.3.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainBL.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainCommon.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainEntity.dll
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainBL.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainCommon.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\bin\Debug\MainEntity.pdb
+C:\Projekti\WEB APPLICATIONS\AishAudio\Applications\Utils\DataMigration\ClassCatalog\obj\x86\Debug\ClassCatalog.csprojResolveAssemblyReference.cache
