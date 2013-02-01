@@ -1,0 +1,218 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Aisha_real" EntityNamespace="MainEntity.Models.User" Class="UserEntityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ts;Initial Catalog=Aisha_real;Persist Security Info=True;User ID=aisha" SettingsObjectName="MainEntity.Properties.Settings" SettingsPropertyName="Aisha_realConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.aspnet_Users" Member="aspnet_Users">
+    <Type Name="aspnet_User">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredUserName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="MobileAlias" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="IsAnonymous" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="LastActivityDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Association Name="aspnet_User_aspnet_Membership" Member="aspnet_Membership" ThisKey="UserId" OtherKey="UserId" Type="aspnet_Membership" Cardinality="One" />
+      <Association Name="aspnet_User_EntityItem" Member="EntityItems" ThisKey="UserId" OtherKey="creatorID" Type="EntityItem" />
+      <Association Name="aspnet_User_Membership" Member="Membership" ThisKey="UserId" OtherKey="UserId" Type="Membership" Cardinality="One" />
+      <Association Name="aspnet_Application_aspnet_User" Member="aspnet_Application" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Membership" Member="aspnet_Memberships">
+    <Type Name="aspnet_Membership">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Password" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordFormat" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PasswordSalt" Type="System.String" DbType="NVarChar(128) NOT NULL" CanBeNull="false" />
+      <Column Name="MobilePIN" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="LoweredEmail" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PasswordQuestion" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="PasswordAnswer" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="IsApproved" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="IsLockedOut" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="CreateDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastLoginDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastPasswordChangedDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="LastLockoutDate" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAttemptCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAttemptWindowStart" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAnswerAttemptCount" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="FailedPasswordAnswerAttemptWindowStart" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="Comment" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="aspnet_User_aspnet_Membership" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+      <Association Name="aspnet_Application_aspnet_Membership" Member="aspnet_Application" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Application" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Applications" Member="aspnet_Applications">
+    <Type Name="aspnet_Application">
+      <Column Name="ApplicationName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredApplicationName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="aspnet_Application_aspnet_User" Member="aspnet_Users" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_User" />
+      <Association Name="aspnet_Application_aspnet_Membership" Member="aspnet_Memberships" ThisKey="ApplicationId" OtherKey="ApplicationId" Type="aspnet_Membership" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EntityItem" Member="EntityItems">
+    <Type Name="EntityItem">
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rootEntityID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="parentEntityID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="typeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="creatorID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="hierarchiID" Type="System.String" DbType="VarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="sortOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="createDate" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="EntityItem_ProductEntity" Member="ProductEntity" ThisKey="entityID" OtherKey="productID" Type="ProductEntity" Cardinality="One" />
+      <Association Name="EntityItem_SubscribePlanEntity" Member="SubscribePlanEntity" ThisKey="entityID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" Cardinality="One" />
+      <Association Name="aspnet_User_EntityItem" Member="aspnet_User" ThisKey="creatorID" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubscribePlanXref" Member="SubscribePlanXrefs">
+    <Type Name="SubscribePlanXref">
+      <Column Name="subscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nextSubscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref" Member="SubscribePlanEntity" ThisKey="nextSubscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" IsForeignKey="true" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref1" Member="SubscribePlanEntity1" ThisKey="subscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MembershipXrefReferrer" Member="MembershipXrefReferrers">
+    <Type Name="MembershipXrefReferrer">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="referrerCode" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="referredBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="lastRefer" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="Membership_MembershipXrefReferrer" Member="Membership" ThisKey="UserId" OtherKey="UserId" Type="Membership" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProductEntity" Member="ProductEntities">
+    <Type Name="ProductEntity">
+      <Column Name="productID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="productTypeID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="price1" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="price2" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="unlimitedAccessInLibrary" Storage="_unlimitedAccessInLibrary" Type="System.Boolean" DbType="Bit NO NULL" CanBeNull="false" />
+      <Association Name="EntityItem_ProductEntity" Member="EntityItem" ThisKey="productID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MembershipAddress" Member="MembershipAddresses">
+    <Type Name="MembershipAddress">
+      <Column Name="addressID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="isBillingAddress" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="country" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="postalCode" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="state" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="postalAdderss" Member="postalAddress" Storage="_postalAdderss" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="dayPhone" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="firstName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="MembershipAddress_ShoppingMembershipAddress" Member="ShoppingMembershipAddresses" ThisKey="addressID" OtherKey="addressID" Type="ShoppingMembershipAddress" />
+      <Association Name="Membership_MembershipAddress" Member="Membership" ThisKey="UserId" OtherKey="UserId" Type="Membership" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubscribePlanEntity" Member="SubscribePlanEntities">
+    <Type Name="SubscribePlanEntity">
+      <Column Name="subscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="durationInDays" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="durationInMonths" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="freeUnitsOnSubscribe" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="freeOfferCnt" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1024)" CanBeNull="true" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref" Member="SubscribePlanXrefs" ThisKey="subscribePlanID" OtherKey="nextSubscribePlanID" Type="SubscribePlanXref" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref1" Member="SubscribePlanXref" ThisKey="subscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanXref" Cardinality="One" />
+      <Association Name="SubscribePlanEntity_MembershipXrefSubscribePlan" Member="MembershipXrefSubscribePlans" ThisKey="subscribePlanID" OtherKey="subscribePlanID" Type="MembershipXrefSubscribePlan" />
+      <Association Name="EntityItem_SubscribePlanEntity" Member="EntityItem" ThisKey="subscribePlanID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Membership" Member="Memberships">
+    <Type Name="Membership">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="activatedCart" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="activationCartDate" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="balance" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="firstName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="lastName" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="freeOfferCnt" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="refferedBy" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="country" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="postalCode" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="state" Type="System.String" DbType="NVarChar(16)" CanBeNull="true" />
+      <Column Name="city" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="postalAdderss" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="phone" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="dayPhone" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Column Name="subscribeActivation" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="chargeDay" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="suspended" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="fullLibraryAccess" Storage="_fullLibraryAccess" Type="System.Boolean" DbType="Bit No NULL" CanBeNull="false" />
+      <Association Name="Membership_MembershipXrefReferrer" Member="MembershipXrefReferrer" ThisKey="UserId" OtherKey="UserId" Type="MembershipXrefReferrer" Cardinality="One" />
+      <Association Name="Membership_MembershipAddress" Member="MembershipAddresses" ThisKey="UserId" OtherKey="UserId" Type="MembershipAddress" />
+      <Association Name="Membership_MembershipCart" Member="MembershipCarts" ThisKey="UserId" OtherKey="UserId" Type="MembershipCart" />
+      <Association Name="Membership_MembershipXrefSubscribePlan" Member="MembershipXrefSubscribePlan" ThisKey="UserId" OtherKey="UserId" Type="MembershipXrefSubscribePlan" Cardinality="One" />
+      <Association Name="aspnet_User_Membership" Member="aspnet_User" ThisKey="UserId" OtherKey="UserId" Type="aspnet_User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MembershipCart" Member="MembershipCarts">
+    <Type Name="MembershipCart">
+      <Column Name="membershipCartID" Type="System.String" DbType="Char(4) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="cartStateID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="expirationDate" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="cartTypeID" Type="System.String" DbType="VarChar(32) NOT NULL" CanBeNull="false" />
+      <Column Name="tranID" Type="System.String" DbType="VarChar(64)" CanBeNull="true" />
+      <Column Name="shoppingTransactionID" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Association Name="Membership_MembershipCart" Member="Membership" ThisKey="UserId" OtherKey="UserId" Type="Membership" IsForeignKey="true" />
+      <Association Name="MembershipCartState_MembershipCart" Member="MembershipCartState" ThisKey="cartStateID" OtherKey="cartStateID" Type="MembershipCartState" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MembershipCartState" Member="MembershipCartStates">
+    <Type Name="MembershipCartState">
+      <Column Name="cartStateID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+      <Association Name="MembershipCartState_MembershipCart" Member="MembershipCarts" ThisKey="cartStateID" OtherKey="cartStateID" Type="MembershipCart" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MembershipXrefSubscribePlan" Member="MembershipXrefSubscribePlans">
+    <Type Name="MembershipXrefSubscribePlan">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="subscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="startSubscribeDate" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="endSubscribeDate" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="cancelSubscribe" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="activationDate" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="declineSubscribe" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="activationFailCnt" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Association Name="SubscribePlanEntity_MembershipXrefSubscribePlan" Member="SubscribePlanEntity" ThisKey="subscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" IsForeignKey="true" />
+      <Association Name="Membership_MembershipXrefSubscribePlan" Member="Membership" ThisKey="UserId" OtherKey="UserId" Type="Membership" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ShoppingMembershipAddress" Member="ShoppingMembershipAddresses">
+    <Type Name="ShoppingMembershipAddress">
+      <Column Name="shoppingTransactionID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="addressID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Association Name="MembershipAddress_ShoppingMembershipAddress" Member="MembershipAddress" ThisKey="addressID" OtherKey="addressID" Type="MembershipAddress" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_UsersInRoles" Member="aspnet_UsersInRoles">
+    <Type Name="aspnet_UsersInRole">
+      <Column Name="UserId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.aspnet_Roles" Member="aspnet_Roles">
+    <Type Name="aspnet_Role">
+      <Column Name="ApplicationId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="RoleId" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="LoweredRoleName" Type="System.String" DbType="NVarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(256)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

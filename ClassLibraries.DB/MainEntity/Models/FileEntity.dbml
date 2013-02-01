@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Aisha" EntityNamespace="MainEntity.Models.File" Class="FileEntityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=dev.myvi.ru;Initial Catalog=Aisha;Persist Security Info=True;User ID=aisha" SettingsObjectName="MainEntity.Properties.Settings" SettingsPropertyName="AishaConnectionString4" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EntityItem" Member="EntityItems">
+    <Type Name="EntityItem">
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rootEntityID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="parentEntityID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="typeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="creatorID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="hierarchiID" Type="System.String" DbType="VarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="sortOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="createDate" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="EntityItem_ClassEntity" Member="FileClassEntity" ThisKey="parentEntityID" OtherKey="classID" Type="ClassEntity" Cardinality="One" />
+      <Association Name="EntityItem_ClassEntity1" Member="ClassEntities" ThisKey="entityID" OtherKey="speakerID" Type="ClassEntity" />
+      <Association Name="EntityItem_FileEntity" Member="FileEntity" ThisKey="entityID" OtherKey="fileID" Type="FileEntity" Cardinality="One" />
+      <Association Name="EntityItem_CatalogItemXrefPortal" Member="CatalogItemXrefPortals" ThisKey="entityID" OtherKey="catalogItemID" Type="CatalogItemXrefPortal" />
+      <Association Name="ClassEntity_EntityItem" Member="ClassEntity" ThisKey="entityID" OtherKey="classID" Type="ClassEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClassEntity" Member="ClassEntities">
+    <Type Name="ClassEntity">
+      <Column Name="classID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="speakerID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="duration" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Association Name="ClassEntity_EntityItem" Member="ClassEntityItem" ThisKey="classID" OtherKey="entityID" Type="EntityItem" Cardinality="One" />
+      <Association Name="ClassEntity_CatalogItemExtend" Member="CatalogItemExtend" ThisKey="classID" OtherKey="entityID" Type="CatalogItemExtend" Cardinality="One" />
+      <Association Name="EntityItem_ClassEntity" Member="EntityItem" ThisKey="classID" OtherKey="parentEntityID" Type="EntityItem" IsForeignKey="true" />
+      <Association Name="EntityItem_ClassEntity1" Member="SpeakerEntityItem" ThisKey="speakerID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogItemExtend" Member="CatalogItemExtends">
+    <Type Name="CatalogItemExtend">
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="code" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="notes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="ClassEntity_CatalogItemExtend" Member="ClassEntity" ThisKey="entityID" OtherKey="classID" Type="ClassEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FileEntity" Member="FileEntities">
+    <Type Name="FileEntity">
+      <Column Name="fileID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="fileTypeID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="filePath" Type="System.String" DbType="NVarChar(2048)" CanBeNull="true" />
+      <Column Name="alternateFilePath" Type="System.String" DbType="NVarChar(2048)" CanBeNull="true" />
+      <Association Name="EntityItem_FileEntity" Member="EntityItem" ThisKey="fileID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogItemXrefPortal" Member="CatalogItemXrefPortals">
+    <Type Name="CatalogItemXrefPortal">
+      <Column Name="portalID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="catalogItemID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="isVisible" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isFree" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isFreeOffer" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isFullFree" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="EntityItem_CatalogItemXrefPortal" Member="EntityItem" ThisKey="catalogItemID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

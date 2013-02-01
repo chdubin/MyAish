@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Aisha_real" EntityNamespace="MainEntity.Models.Catalog" Class="ClassEntityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ts;Initial Catalog=Aisha_real;Persist Security Info=True;User ID=aisha" SettingsObjectName="MainEntity.Properties.Settings" SettingsPropertyName="Aisha_realConnectionString2" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EntityItem" Member="EntityItems">
+    <Type Name="EntityItem">
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="rootEntityID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="parentEntityID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="typeID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="creatorID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" CanBeNull="false" />
+      <Column Name="hierarchiID" Type="System.String" DbType="VarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(512) NOT NULL" CanBeNull="false" />
+      <Column Name="sortOrder" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="createDate" Type="System.DateTime" DbType="DateTime2 NOT NULL" CanBeNull="false" />
+      <Column Name="deleted" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="active" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="EntityItem_TagXrefEntity" Member="TagXrefEntities" ThisKey="entityID" OtherKey="entityID" Type="TagXrefEntity" />
+      <Association Name="EntityItem_ClassEntity" Member="SpeakerClassEntities" ThisKey="entityID" OtherKey="speakerID" Type="ClassEntity" />
+      <Association Name="EntityItem_ClassEntity1" Member="ClassEntity" ThisKey="entityID" OtherKey="classID" Type="ClassEntity" Cardinality="One" />
+      <Association Name="EntityItem_ClassEntity2" Member="ClassEntities" ThisKey="parentEntityID" OtherKey="classID" Type="ClassEntity" />
+      <Association Name="EntityItem_CatalogItemXrefPortal" Member="CatalogItemXrefPortals" ThisKey="entityID" OtherKey="catalogItemID" Type="CatalogItemXrefPortal" />
+      <Association Name="EntityItem_ProductEntity" Member="ProductEntity" ThisKey="entityID" OtherKey="productID" Type="ProductEntity" Cardinality="One" />
+      <Association Name="EntityItem_ProductXrefEntity" Member="ProductXrefEntities" ThisKey="entityID" OtherKey="entityID" Type="ProductXrefEntity" />
+      <Association Name="EntityItem_CatalogItemExtend" Member="CatalogItemExtend" ThisKey="entityID" OtherKey="entityID" Type="CatalogItemExtend" Cardinality="One" />
+      <Association Name="EntityItem_SubscribePlanEntity" Member="SubscribePlanEntity" ThisKey="entityID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" Cardinality="One" />
+      <Association Name="EntityItem_SpeakerEntity" Member="SpeakerEntity" ThisKey="entityID" OtherKey="speakerID" Type="SpeakerEntity" Cardinality="One" />
+      <Association Name="EntityItem_FileEntity" Member="FileEntity" ThisKey="entityID" OtherKey="fileID" Type="FileEntity" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Tags" Member="Tags">
+    <Type Name="Tag">
+      <Column Name="tagID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tagTypeID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
+      <Association Name="Tag_TagXrefEntity" Member="TagXrefEntities" ThisKey="tagID" OtherKey="tagID" Type="TagXrefEntity" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TagXrefEntity" Member="TagXrefEntities">
+    <Type Name="TagXrefEntity">
+      <Column Name="tagID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="EntityItem_TagXrefEntity" Member="EntityItem" ThisKey="entityID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+      <Association Name="Tag_TagXrefEntity" Member="Tag" ThisKey="tagID" OtherKey="tagID" Type="Tag" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ClassEntity" Member="ClassEntities">
+    <Type Name="ClassEntity">
+      <Column Name="classID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="speakerID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="false" />
+      <Column Name="duration" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+      <Column Name="newOrder" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="EntityItem_ClassEntity" Member="SpeakerEntityItem" ThisKey="speakerID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+      <Association Name="EntityItem_ClassEntity1" Member="EntityItem" ThisKey="classID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+      <Association Name="SpeakerEntity_ClassEntity" Member="SpeakerEntity" ThisKey="speakerID" OtherKey="speakerID" Type="SpeakerEntity" IsForeignKey="true" />
+      <Association Name="EntityItem_ClassEntity2" Member="ParentClassEntity" ThisKey="classID" OtherKey="parentEntityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogItemXrefPortal" Member="CatalogItemXrefPortals">
+    <Type Name="CatalogItemXrefPortal">
+      <Column Name="portalID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="catalogItemID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="isVisible" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isFree" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isFreeOffer" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Column Name="isFullFree" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="EntityItem_CatalogItemXrefPortal" Member="EntityItem" ThisKey="catalogItemID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProductEntity" Member="ProductEntities">
+    <Type Name="ProductEntity">
+      <Column Name="productID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="productTypeID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="price1" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="price2" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="false" />
+      <Column Name="unlimitedAccessInLibrary" Storage="_unlimitedAccessInLibrary" Type="System.Boolean" DbType="Bit NO NULL" CanBeNull="false" />
+      <Association Name="ProductEntity_ProductXrefEntity" Member="ProductXrefEntities" ThisKey="productID" OtherKey="productID" Type="ProductXrefEntity" />
+      <Association Name="ProductEntity_ProductEntityShipping" Member="ProductEntityShipping" ThisKey="productID" OtherKey="productID" Type="ProductEntityShipping" Cardinality="One" />
+      <Association Name="EntityItem_ProductEntity" Member="EntityItem" ThisKey="productID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProductXrefEntity" Member="ProductXrefEntities">
+    <Type Name="ProductXrefEntity">
+      <Column Name="productID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Association Name="EntityItem_ProductXrefEntity" Member="EntityItem" ThisKey="entityID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+      <Association Name="ProductEntity_ProductXrefEntity" Member="ProductEntity" ThisKey="productID" OtherKey="productID" Type="ProductEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CatalogItemExtend" Member="CatalogItemExtends">
+    <Type Name="CatalogItemExtend">
+      <Column Name="entityID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="code" Type="System.String" DbType="VarChar(128)" CanBeNull="true" />
+      <Column Name="notes" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="EntityItem_CatalogItemExtend" Member="EntityItem" ThisKey="entityID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubscribePlanEntity" Member="SubscribePlanEntities">
+    <Type Name="SubscribePlanEntity">
+      <Column Name="subscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="durationInDays" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="durationInMonths" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="freeUnitsOnSubscribe" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="freeOfferCnt" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(1024)" CanBeNull="true" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref" Member="SubscribePlanXrefs" ThisKey="subscribePlanID" OtherKey="nextSubscribePlanID" Type="SubscribePlanXref" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref1" Member="SubscribePlanXref" ThisKey="subscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanXref" Cardinality="One" />
+      <Association Name="EntityItem_SubscribePlanEntity" Member="EntityItem" ThisKey="subscribePlanID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.vw_Category" Member="vw_Categories">
+    <Type Name="vw_Category">
+      <Column Name="tagID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
+      <Column Name="count" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SpeakerEntity" Member="SpeakerEntities">
+    <Type Name="SpeakerEntity">
+      <Column Name="speakerID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="contactInfo" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="description" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Association Name="SpeakerEntity_ClassEntity" Member="ClassEntities" ThisKey="speakerID" OtherKey="speakerID" Type="ClassEntity" />
+      <Association Name="EntityItem_SpeakerEntity" Member="EntityItem" ThisKey="speakerID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ProductEntityShipping" Member="ProductEntityShippings">
+    <Type Name="ProductEntityShipping">
+      <Column Name="productID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="shippingLocationID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ProductEntity_ProductEntityShipping" Member="ProductEntity" ThisKey="productID" OtherKey="productID" Type="ProductEntity" IsForeignKey="true" />
+      <Association Name="ShippingLocation_ProductEntityShipping" Member="ShippingLocation" ThisKey="shippingLocationID" OtherKey="shippingLocationID" Type="ShippingLocation" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ShippingLocation" Member="ShippingLocations">
+    <Type Name="ShippingLocation">
+      <Column Name="shippingLocationID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="title" Type="System.String" DbType="NVarChar(128)" CanBeNull="true" />
+      <Association Name="ShippingLocation_ProductEntityShipping" Member="ProductEntityShippings" ThisKey="shippingLocationID" OtherKey="shippingLocationID" Type="ProductEntityShipping" />
+    </Type>
+  </Table>
+  <Table Name="dbo.FileEntity" Member="FileEntities">
+    <Type Name="FileEntity">
+      <Column Name="fileID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="fileTypeID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="filePath" Type="System.String" DbType="NVarChar(2048)" CanBeNull="true" />
+      <Column Name="alternateFilePath" Type="System.String" DbType="NVarChar(2048)" CanBeNull="true" />
+      <Association Name="EntityItem_FileEntity" Member="EntityItem" ThisKey="fileID" OtherKey="entityID" Type="EntityItem" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SubscribePlanXref" Member="SubscribePlanXrefs">
+    <Type Name="SubscribePlanXref">
+      <Column Name="subscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="nextSubscribePlanID" Type="System.Int64" DbType="BigInt NOT NULL" CanBeNull="false" />
+      <Column Name="freeUnitsOnNextSubscribe" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref" Member="SubscribePlanEntity" ThisKey="nextSubscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" IsForeignKey="true" />
+      <Association Name="SubscribePlanEntity_SubscribePlanXref1" Member="SubscribePlanEntity1" ThisKey="subscribePlanID" OtherKey="subscribePlanID" Type="SubscribePlanEntity" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

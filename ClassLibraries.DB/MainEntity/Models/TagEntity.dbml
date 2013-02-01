@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Aisha" EntityNamespace="MainEntity.Models.Tag" Class="TagEntityDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=ts;Initial Catalog=Aisha;Persist Security Info=True;User ID=aisha" SettingsObjectName="MainEntity.Properties.Settings" SettingsPropertyName="AishaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Tags" Member="Tags">
+    <Type Name="Tag">
+      <Column Name="tagID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="tagTypeID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(400) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
