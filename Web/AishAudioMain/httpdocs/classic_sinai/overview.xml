@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title>Overview of the Five Books: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Rabbi Avi Geller</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/overview_of_the_5_books_120x90.gif"/>
+			<itunes:summary>Take a tour through God's user guide for living. Learn about a few things that really matter to the Creator of this incredibly beautiful universe.</itunes:summary>
+            <description>Take a tour through God's user guide for living. Learn about a few things that really matter to the Creator of this incredibly beautiful universe.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Overview of the Five Books</title>
+				<description>Take a tour through God's user guide for living. Learn about a few things that really matter to the Creator of this incredibly beautiful universe.</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Rabbi Avi Geller</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_GA000-5Books.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:37:0 -0500</pubDate>
+			</item>
+											
+			</channel>
+</rss>

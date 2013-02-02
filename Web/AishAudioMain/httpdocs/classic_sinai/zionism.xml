@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Zionism and the Struggle for Statehood</title>
+			<itunes:description>Zionism wasn't Herzl's invention, but he was its driving force. The Zionist ideal got mixed reviews: Reform Jews refused to accept any ties to Israel, while Orthodox rabbis suspected the movement's ulterior motives. Meanwhile, World War I toppled the Ottoman Empire and brought Palestine under British control. Decidedly pro-Arab and anti-semitic, the British weathered 30 years of bloody Arab uprisings and violent Jewish resistance before bowing out to the new State of Israel.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/part32_zionism_and_statehood_120x90.jpg"/>
+				<description> Zionism wasn't Herzl's invention, but he was its driving force. The Zionist ideal got mixed reviews: Reform Jews refused to accept any ties to Israel, while Orthodox rabbis suspected the movement's ulterior motives. Meanwhile, World War I toppled the Ottoman Empire and brought Palestine under British control. Decidedly pro-Arab and anti-semitic, the British weathered 30 years of bloody Arab uprisings and violent Jewish resistance before bowing out to the new State of Israel.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Zionism and the Struggle for Statehood</title>
+				<description> Zionism wasn't Herzl's invention, but he was its driving force. The Zionist ideal got mixed reviews: Reform Jews refused to accept any ties to Israel, while Orthodox rabbis suspected the movement's ulterior motives. Meanwhile, World War I toppled the Ottoman Empire and brought Palestine under British control. Decidedly pro-Arab and anti-semitic, the British weathered 30 years of bloody Arab uprisings and violent Jewish resistance before bowing out to the new State of Israel.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/Zionism.mp3" length="10079888" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate> Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss> 

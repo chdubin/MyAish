@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title>Joseph: 7 Lessons in Diplomacy: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Dr David Luchins</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/joseph_7_diplomacy_120x90.jpg"/>
+			<description> Dr David Luchins, former senatorial advisor, takes a closer look at Joseph and draws out 7 lessons of diplomacy we can all use - even if we never becomes foreign ambassadors.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+					
+			
+			<item>
+				<title>Joseph: 7 Lessons in Diplomacy</title>
+				<description> Dr David Luchins, former senatorial advisor, takes a closer look at Joseph and draws out 7 lessons of diplomacy we can all use - even if we never becomes foreign ambassadors.</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Dr David Luchins</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_LD877B-Joseph.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:59:0 -0500</pubDate>
+			</item>			
+											
+			</channel>
+</rss>

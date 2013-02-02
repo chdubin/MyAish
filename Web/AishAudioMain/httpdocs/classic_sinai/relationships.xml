@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Relationships - Part Three: Beneath the Skin - Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Rabbi Lawrence Kelemen</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/relationships_beneath_the_skin_3_120x90.gif"/>
+				<description>From talk shows to self-help books - everyone wants to know how to make relationships last. This lively class reveals the Jewish secret - so listen carefully.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Relationships - Part Three: Beneath the Skin</title>
+				<description>From talk shows to self-help books - everyone wants to know how to make relationships last. This lively class reveals the Jewish secret - so listen carefully.</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Rabbi Lawrence Kelemen</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_KL630-Relationships.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:51:0 -0500</pubDate>
+			</item>
+											
+			</channel>
+</rss>

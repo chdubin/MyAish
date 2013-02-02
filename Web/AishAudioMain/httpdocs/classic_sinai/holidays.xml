@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title>Crash Course in Jewish Holidays: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Rabbi Avraham Goldhar</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/crash_course_in_jewish_holidays_2_120x90.gif"/>
+			<description> Learn how each of the Jewish holidays offer a unique spiritual energy that is available for you to tap into and benefit from the whole year.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Crash Course in Jewish Holidays</title>
+				<description> Learn how each of the Jewish holidays offer a unique spiritual energy that is available for you to tap into and benefit from the whole year.</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Rabbi Avraham Goldhar</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_AG715-Holidays.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:56:0 -0500</pubDate>
+			</item>				
+											
+			</channel>
+</rss>

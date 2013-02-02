@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Judaism, Paganism and Multiculturalism</title>
+			<itunes:description>In a world where paganism was all that people knew, the Jewish concept of monotheism was a stubborn contradiction to all that society stood for. Yet despite all the pressure against it, monotheism refused to disappear. Rabbi Spiro posits a parallel trend today by linking multiculturalism to the steady deterioration of moral values, and presents the surprising position Jews have taken on the subject this time around.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/KE_822_Judais_Paganism_&_Mu.jpg"/>
+				<description> In a world where paganism was all that people knew, the Jewish concept of monotheism was a stubborn contradiction to all that society stood for. Yet despite all the pressure against it, monotheism refused to disappear. Rabbi Spiro posits a parallel trend today by linking multiculturalism to the steady deterioration of moral values, and presents the surprising position Jews have taken on the subject this time around.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Judaism, Paganism and Multiculturalism</title>
+				<description> In a world where paganism was all that people knew, the Jewish concept of monotheism was a stubborn contradiction to all that society stood for. Yet despite all the pressure against it, monotheism refused to disappear. Rabbi Spiro posits a parallel trend today by linking multiculturalism to the steady deterioration of moral values, and presents the surprising position Jews have taken on the subject this time around.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/KE822-Judaism.mp3" length="13580329" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate> Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss>

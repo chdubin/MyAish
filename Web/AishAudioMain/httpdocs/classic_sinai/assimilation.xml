@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Assimilation and Anti-Semitism</title>
+			<itunes:description>From 1791-1915, 40% of world Jewry was confined to an area small in size - but very great in spirit. This 'Pale of Settlement' gave rise to a sophisticated social welfare system, the modern-day yeshiva, and the Mussar movement. Constant Czarist persecution and bloody pogroms eventually forced the Jews en masse to join anarchist, communist, socialist, or bundist movements bent on changing a backwards Russia, or escaping to the "goldene medina" - America.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/part28_assimilation_120x90.gif"/>
+				<description> From 1791-1915, 40% of world Jewry was confined to an area small in size - but very great in spirit. This 'Pale of Settlement' gave rise to a sophisticated social welfare system, the modern-day yeshiva, and the Mussar movement. Constant Czarist persecution and bloody pogroms eventually forced the Jews en masse to join anarchist, communist, socialist, or bundist movements bent on changing a backwards Russia, or escaping to the "goldene medina" - America.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Assimilation and Anti-Semitism</title>
+				<description> From 1791-1915, 40% of world Jewry was confined to an area small in size - but very great in spirit. This 'Pale of Settlement' gave rise to a sophisticated social welfare system, the modern-day yeshiva, and the Mussar movement. Constant Czarist persecution and bloody pogroms eventually forced the Jews en masse to join anarchist, communist, socialist, or bundist movements bent on changing a backwards Russia, or escaping to the "goldene medina" - America.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/Assimilation_Anti-Semitism.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate> Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss> 

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Emancipation &amp; the Reform</title>
+			<itunes:description>The less religious the Western world became, the better it treated its Jews. During the Enlightenment, Jews were freed from the ghettos, welcomed back into trades and professions, and given civil rights. But even with this newfound freedom, Jews were still looked down upon. The Reform movement of Judaism embraced the new enlightened ideology by divorcing itself totally from God and Torah, which led a majority of German, French and Italian Jews to either assimilate or convert to Christianity.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/part27_enlightment120x90.jpg"/>
+				<description> The less religious the Western world became, the better it treated its Jews. During the Enlightenment, Jews were freed from the ghettos, welcomed back into trades and professions, and given civil rights. But even with this newfound freedom, Jews were still looked down upon. The Reform movement of Judaism embraced the new enlightened ideology by divorcing itself totally from God and Torah, which led a majority of German, French and Italian Jews to either assimilate or convert to Christianity.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Emancipation &amp; the Reform</title>
+				<description> The less religious the Western world became, the better it treated its Jews. During the Enlightenment, Jews were freed from the ghettos, welcomed back into trades and professions, and given civil rights. But even with this newfound freedom, Jews were still looked down upon. The Reform movement of Judaism embraced the new enlightened ideology by divorcing itself totally from God and Torah, which led a majority of German, French and Italian Jews to either assimilate or convert to Christianity.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/Emancipations.mp3" length="10861528" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate> Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss>

@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ChargeOnSkipjackIsDeclined" xml:space="preserve">
+    <value>{skipjack_log}</value>
+  </data>
+  <data name="ChargeOnSkipjackIsDeclined_subject" xml:space="preserve">
+    <value>Skipjack Transaction Log – Declined</value>
+  </data>
+  <data name="ChargeOnSkipjackIsSuccess" xml:space="preserve">
+    <value>{skipjack_log}</value>
+  </data>
+  <data name="ChargeOnSkipjackIsSuccess_subject" xml:space="preserve">
+    <value>Skipjack Transaction Log – Success: ${amount}</value>
+  </data>
+  <data name="EditProfileMessageBody" xml:space="preserve">
+    <value>Dear {0},
+
+Your profile has been recently changed. Please contact us immediately if you did not request or make this change.                                                                                                               {1}
+
+Thank you.</value>
+  </data>
+  <data name="EditProfileMessageSubject" xml:space="preserve">
+    <value>Aish edit profile</value>
+  </data>
+  <data name="ForgotPasswordBody" xml:space="preserve">
+    <value>Dear {0} {1},
+
+Here is your Aishaudio.com login information.
+
+Username: {2}
+Password: {3}</value>
+  </data>
+  <data name="ForgotPasswordSubject" xml:space="preserve">
+    <value>AishAudio Lost Passwords</value>
+  </data>
+  <data name="FromMailAddress" xml:space="preserve">
+    <value>cdubin@aish.com</value>
+  </data>
+  <data name="NoResponseFromTheSkipjack" xml:space="preserve">
+    <value>Transaction Log:
+
+UserID: {user_id}
+TransID: {transaction_id}
+sjOrderID: {transaction_id}
+Amount: ${amount}
+
+
+{skipjack_log}
+</value>
+  </data>
+  <data name="NoResponseFromTheSkipjack_subject" xml:space="preserve">
+    <value>Skipjack no response from Server</value>
+  </data>
+  <data name="OnMonthlyMembershipCancellation" xml:space="preserve">
+    <value>Membership Cancelled:
+Name: {full_name}
+Username: {user_name}
+Email: {email}</value>
+  </data>
+  <data name="OnMonthlyMembershipCancellation_subject" xml:space="preserve">
+    <value>AishAudio Cancellation</value>
+  </data>
+  <data name="OnRegister2FreeDownloadsUser" xml:space="preserve">
+    <value>Dear {email}
+
+After clicking on the following link to verify your email address, you will
+be taken to your two free downloads.
+
+{link}
+
+If the link above does not work for any reason, you may log in at
+Aishaudio.com using the following login information:
+
+Username: {email}
+Password: {password}
+
+Once you login and select a permanent password, you will be able to download
+your free classes. Please note: passwords are case sensitive.</value>
+  </data>
+  <data name="OnRegister2FreeDownloadsUser_subject" xml:space="preserve">
+    <value>Aish registration</value>
+  </data>
+  <data name="OnRegisterFreeUser" xml:space="preserve">
+    <value>Dear {full_name}:
+
+Thank you for joining aishaudio.com, your 24/6 source for Jewish digital
+audio classes. Your email address, {email} will serve as your
+username whenever you log in.
+
+Your password for your account {email} has been set to “{password}”.
+
+Upon clicking on the the following link which will complete your
+Aishaudio.com registration, you will be given an opportunity to choose
+a permanent password. If the link below does not work for any reason, you
+may complete the registration process by logging in at Aishaudio.com with
+your email address and temporary password. Please note: passwords
+are case sensitive.
+
+{link}
+
+Every week, we’ll send you an e-update of new or free on-line listening
+classes.
+
+The easiest way to unsubscribe is to hit reply to this e-mail and write
+unsubscribe in the subject line.
+
+Thank you for joining. We hope that aishaudio.com wisdom will give you a
+great lift.
+
+Rabbi Aaron Dayan and
+the staff of aishaudio.com</value>
+  </data>
+  <data name="OnRegisterFreeUserWithoutEmailValidate" xml:space="preserve">
+    <value>Dear {full_name}:
+
+Thank you for joining aishaudio.com, your 24/6 source for Jewish digital
+audio classes. Your email address, {email} will serve as your
+username whenever you log in.
+
+Your password for your account {email} has been set to “{password}”.
+
+Every week, we’ll send you an e-update of new or free on-line listening
+classes.
+
+The easiest way to unsubscribe is to hit reply to this e-mail and write
+unsubscribe in the subject line.
+
+Thank you for joining. We hope that aishaudio.com wisdom will give you a
+great lift.
+
+Rabbi Aaron Dayan and
+the staff of aishaudio.com</value>
+  </data>
+  <data name="OnRegisterFreeUserWithoutEmailValidate_subject" xml:space="preserve">
+    <value>Aish registration</value>
+  </data>
+  <data name="OnRegisterFreeUser_subject" xml:space="preserve">
+    <value>Aish registration</value>
+  </data>
+  <data name="OnRegisterMonthlyUser" xml:space="preserve">
+    <value>Dear {full_name}:
+
+Thank you for joining aishaudio.com, your 24/6 source for Jewish digital audio classes. When you wish to access your account, please use the following login information:
+
+Username: {email}
+Password: {password}
+
+Every week, we'll send you an e-update to let you know about new releases, timely classes, and interesting promotions. The update lets you link directly to the class of your choice for free listening or downloading.
+
+The easiest way to unsubscribe is to hit reply to this e-mail and write unsubscribe in the subject line.
+
+Please note that each month you will receive an additional allotment of 10 units, up to a maximum of 28. In order that you do not miss out on any units, please make sure that you download enough classes each month to keep the unit balance in your account to 18 or less.
+
+Thank you for joining.  We hope that aishaudio.com wisdom gives you a great lift.
+
+Rabbi Aaron Dayan and
+the staff of aishaudio.com</value>
+  </data>
+  <data name="OnRegisterMonthlyUser_subject" xml:space="preserve">
+    <value>Aish registration</value>
+  </data>
+  <data name="OnSomeoneChangeCreditCard" xml:space="preserve">
+    <value>{full_name}
+
+Your credit card has been changed.
+
+If you have any questions please reply to this email, or call 1 800 VOICES 3 to speak with one of our representatives.</value>
+  </data>
+  <data name="OnSomeoneChangeCreditCard_subject" xml:space="preserve">
+    <value>Aishaudio Change Credit Card</value>
+  </data>
+  <data name="OnSomeoneJoiningAsNewMonthlyMember" xml:space="preserve">
+    <value>An online AishAudio.com order was submitted.
+
+User ID: {user_id}
+Name: {full_name}
+Email: {email}
+-----------------------
+Product #: NA10093
+Title: One month membership
+Type: otherItem
+Qty: 1
+Price: ${price}
+Item Total: ${price}
+-----------------------
+
+Cart Subtotal: ${price}
+Shipping Cost: $0.00
+Taxes: $0.00
+Final Total: ${price}</value>
+  </data>
+  <data name="OnSomeoneJoiningAsNewMonthlyMember_subject" xml:space="preserve">
+    <value>New Monthly Aishaudio Account</value>
+  </data>
+  <data name="OnSomeoneJoiningAsUpgradeMonthlyMember" xml:space="preserve">
+    <value>An online AishAudio.com order was submitted.
+
+User ID: {user_id}
+Name: {full_name}
+Email: {email}
+-----------------------
+Product #: NA10093
+Title: One month membership
+Type: otherItem
+Qty: 1
+Price: ${price}
+Item Total: ${price}
+-----------------------
+
+Cart Subtotal: ${price}
+Shipping Cost: $0.00
+Taxes: $0.00
+Final Total: ${price}</value>
+  </data>
+  <data name="OnSomeoneJoiningAsUpgradeMonthlyMember_subject" xml:space="preserve">
+    <value>New Monthly Aishaudio Account Upgrade</value>
+  </data>
+  <data name="OnSomeoneUpdatingTheirCreditCard" xml:space="preserve">
+    <value>{full_name}
+
+Your credit card has been charged ${charged} for the month beginning {date}.
+
+If you have any questions please reply to this email, or call 1 800 VOICES 3 to speak with one of our representatives.</value>
+  </data>
+  <data name="OnSomeoneUpdatingTheirCreditCard_subject" xml:space="preserve">
+    <value>AishAudio Notification</value>
+  </data>
+  <data name="OnUserBuyForMany" xml:space="preserve">
+    <value>Dear {full_name},
+
+This is confirmation of your recent AishAudio.com purchase.
+
+Your order number is {order_id}.
+
+ORDER ITEMS:
+
+{products_info}
+-----------------------
+
+Cart Subtotal: ${sub_total}
+Shipping Cost: ${shipping}
+Taxes: ${taxes}
+Final Total: ${final_total}
+
+Your order will be shipped to:
+
+Shipping Address:
+{shipping_address}
+
+You can review the status of your order at any time
+by visiting the My Account section of Aishaudio.com.
+Please allow up to two weeks for items coming from Israel.
+
+Thank you for your purchase!
+AishAudio.com Sales
+sales@aishaudio.com</value>
+  </data>
+  <data name="OnUserBuyForMany_subject" xml:space="preserve">
+    <value>Aishaudio Prepaid Purchase</value>
+  </data>
+  <data name="PrepaidSaleGoesThroughForExistAccount" xml:space="preserve">
+    <value>Shipping Address:
+{shipping_address}
+
+-----------------------
+
+User ID: {user_id}
+Name: {full_name}
+Email: {email}
+
+-----------------------
+
+{shopping_products}
+
+-----------------------
+
+{total}</value>
+  </data>
+  <data name="PrepaidSaleGoesThroughForExistAccount_subject" xml:space="preserve">
+    <value>Aishaudio Prepaid Purchase (Upgrade)</value>
+  </data>
+  <data name="PrepaidSaleGoesThroughForNewUser" xml:space="preserve">
+    <value>Shipping Address:
+{shipping_address}
+
+-----------------------
+
+User ID: {user_id}
+Name: {full_name}
+Email: {email}
+
+-----------------------
+
+{shopping_products}
+
+-----------------------
+
+{total}</value>
+  </data>
+  <data name="PrepaidSaleGoesThroughForNewUser_subject" xml:space="preserve">
+    <value>Aishaudio Prepaid Purchase (New User)</value>
+  </data>
+  <data name="RegularSalesIsMade" xml:space="preserve">
+    <value>{transaction_log}</value>
+  </data>
+  <data name="RegularSalesIsMade_subject" xml:space="preserve">
+    <value>Aishaudio.com Purchase</value>
+  </data>
+  <data name="SkipjackFailsBecauseNoResponseInGivenTime" xml:space="preserve">
+    <value>{skipjack_log}</value>
+  </data>
+  <data name="SkipjackFailsBecauseNoResponseInGivenTime_subject" xml:space="preserve">
+    <value>Skipjack Transaction Log - Failed</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value>cdubin@aish.com</value>
+  </data>
+  <data name="String2" xml:space="preserve">
+    <value>no-reply@aishaudio.com</value>
+  </data>
+</root>

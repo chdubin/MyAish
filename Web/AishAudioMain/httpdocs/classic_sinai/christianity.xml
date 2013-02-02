@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Jewish Roots of Christianity</title>
+			<itunes:description>The fact that Christianity was born from Judaism is well known. Less know is exactly where we differ on key concepts - such as the Messiah. Rabbi Spiro elaborates on failed and false Messiahs. Also hear how the Roman Empire fostered a super fertile environment for Christianity to take root.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/KE_832_jewish_roots_of_christianity_120x90.jpg"/>
+				<description> The fact that Christianity was born from Judaism is well known. Less know is exactly where we differ on key concepts - such as the Messiah. Rabbi Spiro elaborates on failed and false Messiahs. Also hear how the Roman Empire fostered a super fertile environment for Christianity to take root.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Jewish Roots of Christianity</title>
+				<description> The fact that Christianity was born from Judaism is well known. Less know is exactly where we differ on key concepts - such as the Messiah. Rabbi Spiro elaborates on failed and false Messiahs. Also hear how the Roman Empire fostered a super fertile environment for Christianity to take root.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/KE832-Christianity.mp3" length="13308453" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate> Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss>

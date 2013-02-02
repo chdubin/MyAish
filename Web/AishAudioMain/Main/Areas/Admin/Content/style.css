@@ -1,0 +1,35 @@
+@import url('css/reset.css');
+@import url('css/general.css');
+@import url('css/styles/default/ui.css');
+@import url('css/forms.css');
+@import url('css/tables.css');
+@import url('css/messages.css');
+
+/* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}

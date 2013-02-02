@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Main.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="UploadTemporaryPath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">~/upload_temp</Value>
+    </Setting>
+    <Setting Name="UnitsRate" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">1</Value>
+    </Setting>
+    <Setting Name="MaxUnitsOnSubscribe" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">26</Value>
+    </Setting>
+    <Setting Name="SubscriberDiscount" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">30</Value>
+    </Setting>
+    <Setting Name="S3AmazonKeyPrefix" Type="System.String" Scope="Application">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="S3AmazonBucketName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">aaprod</Value>
+    </Setting>
+    <Setting Name="SJSerialNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">000284794688</Value>
+    </Setting>
+    <Setting Name="SJDeveloperSerialNumber" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">999988887777</Value>
+    </Setting>
+    <Setting Name="SJAuthorizeServiceUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://developer.skipjackic.com/scripts/evolvcc.dll?AuthorizeAPI</Value>
+    </Setting>
+    <Setting Name="SJChangeStatusUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://developer.skipjackic.com/scripts/evolvcc.dll?SJAPI_TransactionChangeStatusRequest</Value>
+    </Setting>
+    <Setting Name="SJGetStatusUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://developer.skipjackic.com/scripts/evolvcc.dll?SJAPI_TransactionStatusRequest</Value>
+    </Setting>
+    <Setting Name="AdminEmailSubscribeNotification" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">bopohaa@gmail.com</Value>
+    </Setting>
+    <Setting Name="S3AmazonAccessKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">AKIAI7W7A74XORGA2NBA</Value>
+    </Setting>
+    <Setting Name="S3AmazonSecretKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">eH8SQhfXebeMoEuMnq7xGugZIQywVtCYOv728YN6</Value>
+    </Setting>
+    <Setting Name="FromEmailNotification" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">office@aishaudio.com</Value>
+    </Setting>
+    <Setting Name="PasswordProtectionAppName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">PasswordProtection</Value>
+    </Setting>
+    <Setting Name="PasswordProtectionUserName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Branch_password_protection_access_{0}</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

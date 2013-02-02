@@ -1,6 +1,5 @@
 C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.Common\MainCommon\bin\Release\MainCommon.dll
 C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.Common\MainCommon\bin\Release\MainCommon.pdb
 C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.Common\MainCommon\bin\Release\BLToolkit.3.dll
-C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.Common\MainCommon\obj\Release\MainCommon.csprojResolveAssemblyReference.cache
 C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.Common\MainCommon\obj\Release\MainCommon.dll
 C:\Projekti\WEB APPLICATIONS\AishAudio\ClassLibraries.Common\MainCommon\obj\Release\MainCommon.pdb

@@ -1,0 +1,179 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML><HEAD><TITLE>Abarbanel Wines - Calendar</TITLE>
+<META http-equiv=Content-Type content="text/html; charset=windows-1252">
+   
+<link rel="stylesheet" type="text/css" href="sinai_style.css">
+
+
+</HEAD>
+<BODY  bgcolor="#FFFFFF" >
+
+
+The white box on the page that hold the program descriptions<br>
+is a series of nested tables.  This document will explain in<br>
+detail how the page is to be built to insure the cleanest layout.<p>
+
+
+The graphic, the description and the links are in a table.<br>
+Between each table is a graphic that makes the line. It is not<br>
+an hr, because they add extra vertical spacing we don't want.<p>
+
+These tables sit in a larger holding table.<br>
+The grey vertical line that runs down the middle of the page<br>
+come from the bgcolor of a 2 pixel wide td. On both sides of that<br>
+td is a spacer td to maintain the space between the columns.<p>
+
+It is very important that the black descriptive text NOT<br>
+extend past the blue program links for each program.<br>
+If this happens, the left and right columns will not<br>
+line up, meaning the little grey lines that separate the<br>
+programs will not line up, and it will look... bad.<br>
+Explain this to Aaron, and maybe even show him,<br>
+so he knows to write short descriptions.<p>
+
+
+All this is labelled in the code below.<p>
+
+There is a style sheet that is used for<br>
+font colors and sizes only. It must sit<br>
+in the same level as this page, or else<br>
+change the address in the page header<br>
+to point to where it will be.<p>
+
+If you have any questions call<p>
+Dovid Gross<br>
+0547 645 284<br>
+580-7806<p>
+
+
+<div align="center">SAMPLE OF 2 SUBTABLES TOGETHER<p>
+
+
+<table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8" ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else the columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><p>
+
+--------------------------------------------------------------------
+<p>
+
+THIS IS THE HOLDING TABLE BY ITSELF.<br>YOU WILL NOT SEE ANYTHING IF YOU VIEW THE PAGE<br>BECAUSE THERE IS NO CONTENT IN THE TD'S.<br>I HAVE PROVIDED IT HERE BY ITSELF TO<br>MAKE CODING YOUR PAGE EASIER.<p>
+
+<table cellpadding="0" cellspacing="0" border="0" >
+<tr>
+	<td  valign="top" width="290"><!-- This is where the content for the left column goes --></td>
+	<td valign="top" width="10"><img src="images/spacer.gif" width="10" height="1" alt=""></td>
+	<td valign="top" width="2" bgcolor="#99998F"><img src="images/spacer.gif" width="2" height="1" alt=""></td>
+	<td valign="top" width="10"><img src="images/spacer.gif" width="10" height="1" alt=""></td>
+	<td valign="top" width="290"><!-- This is where the content for the left column goes --></td>
+</tr>
+</table>
+
+<p>
+<BLOCKQUOTE>
+THIS IS THE HOLDING TABLE WITH SOME SUBTABLES IN THE LEFT AND RIGHT COLUMNS. NOTICE HOW THE LITTLE GREY LINES
+THAT SEPARATE EACH AUDIO PROGRAM LINE UP ACROSS THE PAGE.  THIS IS WHAT YOU WANT.  THAT IS WHY THE PROGRAM DESCRIPTION TEXT CANNOT BE TOO LONG.
+</BLOCKQUOTE>
+<p>
+
+
+
+<table cellpadding="0" cellspacing="0" border="0" >
+<tr>
+	<td  valign="top" width="290"><!-- This is where the content for the left column goes --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><!-- END LEFT COLUMN --></td>
+	<td valign="top" width="10"><img src="images/spacer.gif" width="10" height="1" alt=""></td>
+	<td valign="top" width="2" bgcolor="#99998F"><img src="images/spacer.gif" width="2" height="1" alt=""></td>
+	<td valign="top" width="10"><img src="images/spacer.gif" width="10" height="1" alt=""></td>
+	<td valign="top" width="290"><!-- This is where the content for the left column goes --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><table cellpadding="0" cellspacing="0" border="0" width="290">
+<tr>	<td  valign="top" width="120"><img src="images/placeholder_120x90.gif" width="120" height="90" alt=""><br><img src="images/spacer.gif" width="120" height="5" alt=""><br>
+	<span class="minitext"><a href="">Listen Now<br>
+<a href="">Download Hi Quality</a><br>
+<a href="">Download Radio Quality</a><br>
+<a href="">Email link to a friend</a><br></span></td>
+	<td  valign="top" width="8"  ><!-- This spacer gif maintains the gap between the picture and the text block, but it also pushes down the graphic line that goes between each table. So, it if the descriptive text is too long it will make the whole page look unbalanced --><img src="images/spacer.gif" width="8" height="162" alt=""></td>
+	<td valign="top" width="162"><img src="images/spacer.gif" width="162" height="1" alt=""><br><!-- Content start --><span class="programtitle">Keep program titles as short as possible</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="speaker">Name of speaker</span><br><img src="images/spacer.gif" width="160" height="2" alt=""><br><span class="subpix">About 40 words of description can fit here. This text must not extend past the program links on the left, or else columns on the page will not align and it will look...bad. </span><!-- Content end --></td>
+</tr>
+</table><!-- start spacer between tables --><img src="images/greydot_1x1.gif" width="290" height="1" alt=""><br><img src="images/spacer.gif" width="290" height="12" alt="" border="0"><!-- end spacer between tables --><!-- END RIGHT COLUMN--></td>
+</tr>
+</table><p>
+THIS IS THE LARGER HOLDING TABLE THAT CREATES THE WHITE BACKGROUND<br>
+THERE IS A 16 PIXEL PAD AND A 2 PIXEL BLACK BORDER. WHEN YOU PLACE THE FLASH<br>
+OBJECT ON THE PAGE IT SHOULD ALSO GET A 2 PX BLACK BORDER.<br>
+MAKE SURE YOU SET bordercolordark="#000000" bordercolorlight="#000000" SO THAT THE<br>
+BORDER IS A TRUE BLACK AND NOT A BEVELLED EDGE.<p>
+
+<table bordercolordark="#000000" bordercolorlight="#000000" border="2" cellpadding="16"  cellspacing="0" bgcolor="#FFFFFF">
+<tr>
+	<td bgcolor="#FFFFFF">Paste previous 2 column table with the subtables here AFTER you code them outside, so you can check your code as you go. Paste into here at the very end.  <b><font color="#800080">ALSO, remove the grey lines at the bottom of each column so the column just ends with the bottom border of the white page area.</font></b></td>
+</tr>
+</table>
+
+
+ 
+
+</div>
+
+
+
+
+</BODY></HTML>

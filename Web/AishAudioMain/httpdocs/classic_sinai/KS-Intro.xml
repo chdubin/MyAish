@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title>1 and 2 - Introduction to Jewish History</title>
+			<itunes:description>Journey through the pages of time from the Jewish perspective. Vivid, illuminating, and always entertaining, Rabbi Ken Spiro presents a "Crash Course in Jewish History" as fresh as current events and as descriptive as eyewitness news. So get ready for a dash through "Jewish time" and don't worry if you're late.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://www.aishaudio.com/ssi/aish/graphics/titles/part1_why_study_history_120x90.jpg"/>
+				<description> Journey through the pages of time from the Jewish perspective. Vivid, illuminating, and always entertaining, Rabbi Ken Spiro presents a "Crash Course in Jewish History" as fresh as current events and as descriptive as eyewitness news. So get ready for a dash through "Jewish time" and don't worry if you're late.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>1 and 2 - Introduction to Jewish History</title>
+				<description>Journey through the pages of time from the Jewish perspective. Vivid, illuminating, and always entertaining, Rabbi Ken Spiro presents a Crash Course in Jewish History as fresh as current events and as descriptive as eyewitness news. So get ready for a dash through Jewish time and don't worry if you're late.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/01_02-Introduction_to_Jewish_Hist.mp3" length="19452006" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss> 

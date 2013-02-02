@@ -773,6 +773,10 @@
     <Content Include="Areas\Admin\Views\User\ViewShoppingTransactions.aspx" />
     <Content Include="Areas\Admin\Views\User\UserFilter.ascx" />
     <Content Include="Areas\Admin\Views\User\ViewFiles.aspx" />
+    <Content Include="Content\Default\Css\jplayer.blue.monday.css" />
+    <Content Include="Content\Default\Css\jplayer.blue.monday.jpg" />
+    <Content Include="Content\Default\Css\jplayer.blue.monday.seeking.gif" />
+    <Content Include="Content\Default\Css\jplayer.blue.monday.video.play.png" />
     <Content Include="Content\Default\Images\360_free.jpg" />
     <Content Include="Content\Default\Images\aishaudio_rabbis.jpg" />
     <Content Include="Content\Default\Images\all_3.jpg" />
@@ -1013,7 +1017,14 @@
     <Content Include="Page\2\test2.html" />
     <Content Include="Page\2\test.html" />
     <Content Include="Page\test3.html" />
+    <Content Include="Scripts\audiojs\audiojs\audio.min.js" />
+    <Content Include="Scripts\audiojs\audiojs\audiojs.swf" />
+    <Content Include="Scripts\audiojs\audiojs\player-graphics.gif" />
+    <Content Include="Scripts\audiojs\includes\index.css" />
     <Content Include="Scripts\front\base.js" />
+    <Content Include="Scripts\jquery\jPlayer\Jplayer.swf" />
+    <Content Include="Scripts\jquery\jPlayer\jquery.jplayer.inspector.js" />
+    <Content Include="Scripts\jquery\jPlayer\jquery.jplayer.min.js" />
     <Content Include="Scripts\jquery\plugins\datepicker\3_7_5\jquery.datepick.js" />
     <Content Include="Scripts\jquery\plugins\datepicker\4_0_5\jquery.datepick.min.js" />
     <Content Include="Scripts\jquery\plugins\tokeninput\1_1\jquery.tokeninput.js" />

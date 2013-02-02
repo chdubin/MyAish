@@ -1,0 +1,141 @@
+BODY {
+	background-color: #ba8e69;
+	font-family: Arial, Helvetica, sans-serif;
+} 
+
+A {
+	color: 0033FF;
+	text-decoration : none;
+} 
+
+A:VISITED {
+	color: 0033FF;
+} 
+
+A:HOVER {
+	color: 0033FF;
+	text-decoration : underline;
+} 
+
+
+a.white:link {
+	color: White;
+	text-decoration: none;
+}
+a.white:visited {
+	color: White;
+	text-decoration: none;
+}
+
+a.white:hover { text-decoration: underline;}
+
+.bodytimesb {
+	color: #000000;
+	font-family: Times New Roman, Times, serif;
+	font-size: 15px;
+	font-weight : bold;
+} 
+
+.bodytimes {
+	color: #000000;
+	font-family: Times New Roman, Times, serif;
+	font-size: 15px;
+	font-weight: normal;
+} 
+
+.bodyarialb {
+	color: #000000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+} 
+
+ 
+.programtitle {
+	color: #CC0000;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	font-weight: bold;
+	line-height: 13px;
+	text-align:left;
+} 
+
+
+.minitext {
+	color: #0033FF;
+	font-size: 11px;
+	text-align:left;
+} 
+
+.speaker {
+	color: #663300;
+	font-size: 11px;
+	text-align:left;	
+} 
+
+
+.copyright {
+	color: #C9E6FF;
+	font-size: 9px;
+	letter-spacing: 1px;
+	
+} 
+
+.bottomlink {
+	color: #333333;
+	font-size: 13px;
+	line-height : 11px;
+	vertical-align : top;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight : bold;
+} 
+
+.readme {
+	color: #696969;
+	font-size: 13px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+} 
+
+.bottomlinks {
+	color: #333333;
+	font-size: 10px;
+	line-height : 11px;
+	vertical-align : top;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight : bold;
+} 
+
+.tinyspaced {
+	color: #333333;
+	font-size: 10px;
+	line-height : 12px;
+	vertical-align : top;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight : bold;
+} 
+
+.tinyspacedc {
+	color: #3366CC;
+	font-size: 10px;
+	line-height: 12px;
+	background-color: #FFFF99;
+	vertical-align: top;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight: bold;
+} 
+
+.tinyspacedb {
+	color: #333333;
+	font-size: 11px;
+	line-height : 12px;
+	vertical-align : top;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight : bold;
+} 
+.subpix {
+	color: #333333;
+	font-size: 11px;
+	font-family: Verdana, Arial, sans-serif;
+	font-weight : bold;
+} 

@@ -1,0 +1,126 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+
+<%@ Import Namespace="Main.Common" %>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+            <%= this.Context.GetCurrentPortal().EntityItem.title %>
+        </asp:ContentPlaceHolder>
+    </title>
+    <link href="<%= Url.Css("main.css") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= Url.Css("main_styles2.css") %>" rel="Stylesheet" type="text/css" />
+    <script src="<%= Url.JavaScript("front/base.js") %>" type="text/javascript"></script>
+    <%--<script src="<%= Url.JavaScript("jquery-1.4.1.min.js") %>" type="text/javascript"></script>--%>
+    <script src="https://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js" type="text/javascript"></script>
+
+    <style type="text/css">
+
+#menu			{	border-bottom:1px solid #669ACC; list-style: none; margin:0; padding:0; }
+#menu li		{	display:inline;	}
+#menu a			{	font-family:verdana; font-size:12px; /*color:#D2E0F2;*/ color:#54749A; text-decoration:none; padding-top:5px; padding-bottom:6px; display:block; background-color:#FFFFFF;
+					background-image: url(ssi/aish/graphics/common/arrow.gif); padding-left:16px; background-repeat:no-repeat;
+					background-position: 3px 9px; border-bottom:1px solid #D2E0F2;
+}
+#menu a:hover, #menu a.sfhover {	background-color:#1c3b76; color:#FFFFFF;	}
+#menu ul		{	float: left; list-style: none; position: absolute; left: -999em; top: auto; height: auto; width:173px;
+					padding:0; margin: 0; margin-left:150px; margin-top:-26px;border-left:1px solid #387BC0;	}
+#menu li li		{	padding:0 0 0 0; margin:0; width:100%; height:100%;	}
+#menu li ul a	{	width:100%;	height:100%; font-family:verdana; font-size:12px; /*color:#D2E0F2;*/ color:white; text-decoration:none; padding-top:5px; padding-bottom:6px;
+					display:block; background-color:#3060AD; background-image: url(ssi/aish/graphics/common/arrow.gif); padding-left:16px;
+					background-repeat:no-repeat; background-position: 3px 9px; border-bottom:1px solid #D2E0F2;	}
+#menu ul li a:hover, #menu ul li a.sfhover {	background-color:#1c3b76;	}
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul, #menu li li li.sfhover ul {	left: auto;	}
+
+
+</style>
+<!-- The following javascript must be added in order for menus to work in IE. -->
+<script type="text/javascript">
+<!--
+    //This code necesary since MS IE does not support css hover for li elements (only for a).
+    sfHover = function () {
+        //	get all li elements within the div with the id of "menu"
+        var sfEls = document.getElementById("menu").getElementsByTagName("LI");
+        for (var i = 0; i < sfEls.length; i++) {
+            sfEls[i].onmouseover = function () { this.className += " sfhover" }
+            sfEls[i].onmouseout = function () { this.className = this.className.replace(new RegExp(" sfhover\\b"), "") }
+        }
+    }
+    if (window.attachEvent) {
+        window.attachEvent("onload", sfHover);
+    }
+
+    //This code necesary since MS IE does not support css hover for li elements (only for a).
+    sfHover = function () {
+        //	get all li elements within the div with the id of "menu"
+        var sfEls = document.getElementById("menu").getElementsByTagName("LI");
+        for (var i = 0; i < sfEls.length; i++) {
+            sfEls[i].onmouseover = function () { this.className += " sfhover" }
+            sfEls[i].onmouseout = function () { this.className = this.className.replace(new RegExp(" sfhover\\b"), "") }
+        }
+    }
+
+    if (window.attachEvent) {
+        window.attachEvent("onload", sfHover);
+    }
+
+-->
+</script>
+<!-- The above javascript must be added in order for menus to work in IE. -->
+
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+
+</head>
+<body>
+    <div id="wrap">
+<table width="100%" border="0" cellpadding="0" cellspacing="0">
+<tbody><tr>
+	<td class="top">&nbsp;
+	
+	</td>
+	</tr>
+  <tr>
+    <td class="header"><table border="0" cellpadding="0" cellspacing="0">
+        <tbody>
+          <tr>
+            <td class="header2" width="10"></td>
+            <td class="header1"><a href="<%=Url.Action("Index", "Home")%>"><img src="/Content/NerAudio/logo.gif"></a></td>
+            <td class="header1" width="470">&nbsp;</td>
+            <td class="header2" align="right" width="250"><a class="whit" href="http://nerleelef.com/aboutus.htm">About Us |</a> <a class="whit" href="http://nerleelef.com/contactus.htm">Contact Us</a> </td>
+            <td class="header2" width="10"></td>
+          </tr>
+        </tbody>
+      </table></td>
+  </tr>
+  <tr>
+    <td class="bottom">&nbsp;</td>
+  </tr>
+  <tr>
+    <td class="sub"> World Center For Jewish Leadership Training and Community Outreach </td>
+  </tr>
+	<tr>
+		<td class="gray">&nbsp;
+		</td>
+	</tr>
+	<tr>
+		<td>
+  </td></tr></tbody></table>        
+
+<asp:ContentPlaceHolder ID="body" runat="server" />
+
+<table width="100%" border="0" align="center" cellpadding="0" cellspacing="0">
+  <tbody><tr>
+    <td class="space"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td class="footter"><div align="center"><a class="g" href="http://nerleelef.com/aboutus.htm">About Us |</a> <a class="g" href="http://nerleelef.com/contactus.htm">Contact Us |</a> <a class="g" href="http://nerleelef.com/index.htm">Home |</a> <a class="g" href="http://www.nerleelef.org/">Ner Le'Elef Women's Website |</a> <a class="g" href="#top">Return to Top of Page</a> </div></td>
+  </tr>
+  <tr>
+    <td class="copyright"> <div align="center">Copyright @ 2005 Tzipora Rottenburg all rights reserved </div></td>
+  </tr>
+</tbody></table>
+
+</body>
+</html>

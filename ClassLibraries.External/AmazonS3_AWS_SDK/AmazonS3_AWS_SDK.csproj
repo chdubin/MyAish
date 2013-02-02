@@ -45,7 +45,9 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="AWSSDK.dll" />
-    <Content Include="AWSSDK.xml" />
+    <Content Include="AWSSDK.xml">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <None Include="dte80a.olb" />

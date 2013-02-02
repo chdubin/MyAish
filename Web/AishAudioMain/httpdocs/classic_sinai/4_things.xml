@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title>4 Things You Never Knew About Judaism: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Lori Palatnik</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/4_things_never_knew_about_judaism_120x90.gif"/>
+				<description>Upgrade your Sunday School conception of what it means to be Jewish. You may be pleasantly surprised at how much Judaism can offer you in terms of personality development.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>4 Things You Never Knew About Judaism</title>
+				<description>Upgrade your Sunday School conception of what it means to be Jewish. You may be pleasantly surprised at how much Judaism can offer you in terms of personality development.</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Lori Palatnik</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_LO789-Misconceptions.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:54:0 -0500</pubDate>
+			</item>				
+											
+			</channel>
+</rss>

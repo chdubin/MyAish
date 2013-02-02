@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> The Happy Wife: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Aryeh Pamensky</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/happy_wife_120x90.gif"/>
+				<description>Aryeh Pamensky's genius story-telling and fantastic humor is guaranteed to alter your current opinion of marriage, and help you to laugh your way through all your 'marital mousetraps.'</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>The Happy Wife</title>
+				<description>Aryeh Pamensky's genius story-telling and fantastic humor is guaranteed to alter your current opinion of marriage, and help you to laugh your way through all your 'marital mousetraps.'</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Aryeh Pamensky</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_AP613-Mousetraps.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:53:0 -0500</pubDate>
+			</item>
+											
+			</channel>
+</rss>

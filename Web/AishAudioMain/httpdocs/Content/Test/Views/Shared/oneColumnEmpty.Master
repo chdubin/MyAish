@@ -1,0 +1,57 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" %>
+<%@ Import Namespace="Main.Common" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head id="Head1" runat="server">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <title>
+        <asp:ContentPlaceHolder ID="title" runat="server">
+            Aishaudio
+        </asp:ContentPlaceHolder>
+    </title>    
+    <link href="<%= Url.Css("main2.css") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= Url.Css("main_styles2.css") %>" rel="Stylesheet" type="text/css" />
+    <link href="<%= Url.Css("messages.css") %>" rel="Stylesheet" type="text/css" />
+    <script src="<%= Url.JavaScript("front/base.js") %>" type="text/javascript"></script>
+    <%--<script src="<%= Url.JavaScript("jquery-1.4.1.min.js") %>" type="text/javascript"></script>--%>
+    <script src="http://ajax.aspnetcdn.com/ajax/jquery/jquery-1.7.2.min.js" type="text/javascript"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</head>
+<body>
+    <div id="wrap">
+        <div>
+            <div id="aside">
+                <h1>
+                    <h1><%=Html.ActionLink("Test Audio", "Index", "Home") %></h1>
+                </h1>
+            </div>
+            <div id="header">
+                <% 
+                    Html.RenderPartial("~/Views/Account/HeaderLoginSection.ascx", new Main.Models.LogOnModel());
+                %>
+            </div>
+            <div style="clear:both;"></div>
+        </div>        
+        <div id="main">
+            <div id="content">
+                <ul id="topContent">
+                    <li class="first">Jewish mp3 downloads</li>
+                    <li>Torah audio free listening</li>
+                    <li>Judaism mp3s, tapes, CDs</li>
+                </ul>
+                <div style="clear:both;"></div>
+                <asp:ContentPlaceHolder ID="body" runat="server" />
+            </div>
+        </div>
+        <div style="width: 200px; margin-left: 180px;">
+            <img border="0" src="<%= Url.Image("bottom_l.gif") %>" alt="car">
+            <div id="footer_menu">
+                |&nbsp; <%=Html.ActionLink("home", "Index", "Home")%>&nbsp;|&nbsp; <a href="<%= Url.RouteUrl("GSHowAishAudioWorksPage") %>">getting&nbsp;started</a>&nbsp;|&nbsp;
+                <a href="<%= Url.RouteUrl("ContactPage") %>">contact us</a>&nbsp;|&nbsp; <a href="<%= Url.RouteUrl("PressRoomPage") %>">press&nbsp;room&nbsp;&&nbsp;contacts</a>&nbsp;|&nbsp;
+                <a href="<%= Url.RouteUrl("LegalPolicyPage") %>">legal&nbsp;policy</a>&nbsp;|
+            </div>
+        </div>
+    </div>
+</body>
+</html>

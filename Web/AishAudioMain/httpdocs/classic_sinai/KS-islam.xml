@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> 22 - Islam</title>
+			<itunes:description>Just as Judaism inspired early Christian religionists, it was also a stepping stone for a young Arab named Mohammed, whose vision was to impose ethical monotheism on his pagan desert culture. Even though Jews rejected his claim of prophecy, Mohammed succeeded to implant Islam within the Arab heart. When Arabia declared jihad on Christianity, hear how the Jews survived within Moslem territory as a separate, albeit as an inferior race.</itunes:description>
+			<itunes:author>Rabbi Ken Spiro</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/KE_806_KK_Islam_120x90.jpg"/>
+				<description> Just as Judaism inspired early Christian religionists, it was also a stepping stone for a young Arab named Mohammed, whose vision was to impose ethical monotheism on his pagan desert culture. Even though Jews rejected his claim of prophecy, Mohammed succeeded to implant Islam within the Arab heart. When Arabia declared jihad on Christianity, hear how the Jews survived within Moslem territory as a separate, albeit as an inferior race.</description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.aishaudio.com</link>
+			<lastBuildDate>Thu, 13 Aug 2009 08:00:00 EST</lastBuildDate>
+			<pubDate>Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>#22 - Islam</title>
+				<description> Just as Judaism inspired early Christian religionists, it was also a stepping stone for a young Arab named Mohammed, whose vision was to impose ethical monotheism on his pagan desert culture. Even though Jews rejected his claim of prophecy, Mohammed succeeded to implant Islam within the Arab heart. When Arabia declared jihad on Christianity, hear how the Jews survived within Moslem territory as a separate, albeit as an inferior race.</description>
+				<link>http://www.aishaudio.com</link>
+				<itunes:author>Rabbi Ken Spiro</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/22-islam.mp3" length="10673623" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate> Thu, 13 Aug 2009 08:00:00 EST</pubDate>
+			</item>
+											
+			</channel>
+</rss>

@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Building Bridges With Those You Love: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Rabbi Noach Orlowek</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/building_bridges_120x90.gif"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Building Bridges With Those You Love</title>
+				<description> Giving and receiving love - this class contains many practical ways of achieving this goal that movies and pop songs never quite get around to explaining. </description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Rabbi Noach Orlowek</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_ON615I-Bridges.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:35:0 -0500</pubDate>
+			</item>		
+											
+			</channel>
+</rss>

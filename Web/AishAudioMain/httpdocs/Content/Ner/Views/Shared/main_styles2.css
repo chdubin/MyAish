@@ -1,0 +1,708 @@
+/* CSS Document */
+td.copyright{
+		background-color:#F2F2F2;
+		border: 1px solid #CECED0;	
+		color: #989A95;
+		font-size: 10px;
+		text-align: center;	
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+} 
+
+td{vertical-align: top;
+}
+body			{	background-color: #e8f5fe;}
+body, td		{	font-family:verdana; font-size:12px;	}
+#yisrael img	{	border-width:0;	}
+#yisrael form	{	padding:0; margin:0;	}
+#topTable		{	text-align:left; background-color:#6699cc;/*width:800px;*/	}
+#topTable td, #topTable a	{	font-family:verdana; font-size:11px; color:#19334B;	}
+#topTable input.text, #topTable input.password	{	width:100px; height:16px; border:1px solid #03284E;	}
+input.text		{	font-family:verdana; font-size:10px;	}
+input.password		{	font-family:verdana; font-size:10px;	}
+input.select		{	font-family:verdana; font-size:10px;	}/*doesn't work*/
+.inputselect		{	font-family:verdana; font-size:11px;	}/*use this*/
+.inputselectsmaller		{	font-family:verdana; font-size:10px;	}/*use this*/
+.inputselectlarger		{	font-family:verdana; font-size:12px;	}/*use this*/
+input.btn		{	font-family:verdana; font-size:10px;	}
+#middleTable	{	text-align:left; width:800px; z-index:9;	}
+#left_column	{	font-family:verdana; background-color:#669ACC; text-align:left; color:#D3E0EE;	}
+.reach_search	{	display:block; font-size:10px; padding-left:3px;	}
+#accu			{	display:block; margin-top:5px; color:#F8BC16; margin-bottom:23px;	}
+#full_list		{	color:#F8BC16; padding-bottom:5px; padding-left:15px; font-size:12px;	}
+.white			{	background-color:white;	}
+.dark_blue		{	background-color:white; }
+#mainArea		{	padding-left:25px; padding-top:35px; padding-right:15px;	}
+
+
+
+
+#site_description	{ font-family:verdana; background-color:white; color:#a2b5cb; font-size:11px; padding-top:0px; letter-spacing:2px; padding-left:15px;	}
+#blue_field      {
+	padding-left:8px;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-right:8px;
+	top: 133px;
+	left: 191px;
+	font-family:verdana;
+	background-color:#B6E3F8;
+	z-index:1;
+	width: 609px;
+	height: 337px;
+}
+#site_description2	{ position:absolute; top: 110px; left: 183px; font-family:verdana; color:#a2b5cb; font-size:11px; letter-spacing:2px;  z-index: -10; padding-top: 3px; z-index:25; white-space: nowrap;}
+#email_box      { position:relative; } 
+
+
+#login_new { font-family:verdana; font-size:11px; color: white; position:absolute; top: 52px; left: 325px;  z-index: 20; /*width: 600px;*//*width=600 causes scrollbar*/}
+
+#login_new li		{	display:inline;}
+#login_new a			{	font-family:verdana; font-size:11px; color: white; /*color:#D2E0F2;*/  text-decoration:none;   
+}
+
+#login_new2 a:hover, #login_new a.sfhover { color:#D2E0F2;	}
+
+#login_new2 { font-family:verdana; font-size:11px; color: white; position:absolute; top: 30px; left: 400px;  z-index: 25; /*width: 600px;*//*width=600 causes scrollbar*/}
+#login_new2 li		{	display:inline;}
+#login_new2 a			{	font-family:verdana; font-size:11px; color: white; /*color:#D2E0F2;*/  text-decoration:none;   
+}
+
+#login_new2 a:hover, #login_new a.sfhover { color:#D2E0F2;	}
+
+#login_new td			{	font-family:verdana; font-size:11px; color: white; /*color:#D2E0F2;*/  text-decoration:none;padding:2px;   
+}
+
+
+/*	FOR my_account	*/
+
+#top_info		{	margin-bottom:25px;	}
+#top_info div	{	width:560px; padding-top:3px; padding-bottom:3px; font-family:verdana; font-size:12px; color:#4F77B4; font-weight:bold; text-indent:220px;	}
+#top_info span	{	display:block; width:560px; height:3px; font-size:2px; background-image:url(http://www.aishaudio.com/ssi/aish/graphics/spacer.gif);	}
+#plans			{	margin-top:15px; margin-left:15px; margin-bottom:10px;	}
+#options		{	margin-top:15px; margin-left:15px; margin-bottom:40px;	}
+
+/*	FOR my_library	*/
+
+#welcomeDiv		{	width:550px; background-color:#C9DDF8; color:#2752A1; margin-bottom:25px; text-indent:18px;
+	font-family:verdana;	font-style:italic;	font-size:25px;	padding-top:4px; padding-bottom:4px;	}
+#welcome2Div	{	width:550px; background-color:#C9DDF8; color:#2752A1; margin-bottom:0px; text-indent:18px;
+	font-family:tahoma;	font-style:italic;	font-size:24px;	padding-top:4px; padding-bottom:4px;	}
+#freeTable td	{	padding-bottom:2px;	}
+.verticalSpace	{	font-size:1px; height:1px;	}
+#archiveMainHeader {	margin-top:35px; margin-bottom:17px;	}
+#archiveMainHeader div {	color:#4F77B4; font-weight:bold; margin-top:8px; font-size:11px; font-family:arial;	}
+#myLibraryArchives td	{	font-family:arial; font-size:11px; color:#3B3B3B; }
+#myLibraryArchives .td1	{	width:60px;	}
+#myLibraryArchives .td2	{	width:75px;	}
+#myLibraryArchives .td3	{	width:136px;	}
+#myLibraryArchives .td4	{	width:126px;	}
+#myLibraryArchives .td5	{	width:82px;	}
+#myLibraryArchives .td6	{	width:56px;	}
+.myLibraryArchivesRegular td {	padding-top:4px;	padding-bottom:4px;	}
+/* ORIGINAL:
+.myLibraryArchivesRegular .td1	{	text-indent:10px;	}
+.myLibraryArchivesRegular .td2	{	text-indent:10px;	}
+.myLibraryArchivesRegular .td3	{	text-indent:10px;	}
+.myLibraryArchivesRegular .td4	{	text-indent:10px;	}
+.myLibraryArchivesRegular .td5	{	text-align:center;	}
+.myLibraryArchivesRegular .td6	{	text-align:center;	}
+*/
+/* // HG's version:*/
+.myLibraryArchivesRegular .td1	{	padding-left:8px;	}
+.myLibraryArchivesRegular .td2	{	padding-left:8px;	}
+.myLibraryArchivesRegular .td3	{	padding-left:8px;	}
+.myLibraryArchivesRegular .td4	{	padding-left:8px;	}
+.myLibraryArchivesRegular .td5	{	padding-left:3px;padding-right:3px;	}
+.myLibraryArchivesRegular .td6	{	padding-left:3px;padding-right:3px;text-align:center;	}
+
+.myLibraryArchivesRegular .nopadding	{	padding: 0 0 0 0;	} /*HG 4/17/07*/
+
+#myLibraryArchives #myLibraryArchivesHeader .divider, #myLibraryArchives .divider {	width:1px;	background-color:white; }
+.prev_next {	font-family:verdana; font-size:11px; color:#669acc;	text-decoration:none; }
+a.prev_next:visited { color:#669acc;  }
+a.prev_next:hover { color:#669acc;  }
+
+/*	FOR download_plans	*/
+
+#planTable input.text, #planTable select	{	width:170px;	}
+.benefit_header	{	font-family:verdana; font-weight:bold; font-size:12px; color:#bf203a;	}/*red*/
+.benefit_subheader	{	font-family:verdana; font-weight:bold; font-size:11px; color:#bf203a; margin-top:4px;	}
+.benefit_description	{	font-family:verdana; font-size:11px; color:#58595b;	 padding-left:5px; margin-left:15px;	}
+.email_explain	{	font-family:verdana; font-size:10px; color:#889CB7;	}
+/* Added 7/16/07 for monthly redesign: */
+
+.benefit_header2 {	font-family:verdana;  font-size:12px; color:#58595b;	}
+
+.benefit_regular {
+	font-size:12px;
+	color:#305FA3;
+	font-family: arial;
+	font-weight: bold;
+	line-height: normal;
+}
+.benefit_regularred {
+	font-size:12px;
+	color:#bf203a;
+	font-family: arial;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+.benefit_regularredbigger {
+	font-size:14px;
+	color:#bf203a;
+	font-family: arial;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: none;
+}
+
+.benefit_smaller {
+	font-size:11px;
+	color:#305FA3;
+	font-family: arial;
+	font-weight: bold;
+	line-height: normal;
+	text-decoration: underline;
+}
+.benefit_larger_banner1 {
+	font-size:15px;
+	color:#2354A1;
+	font-family: tahoma;
+	font-weight: bold;
+	line-height: normal;
+}
+.benefit_larger_banner2 {
+	font-size:13px;
+	color:#2354A1;
+	font-family: tahoma;
+	font-weight: bold;
+	line-height: normal;
+}
+
+/*	FOR search	*/
+
+.search_indent	{	padding-left:15px; width:580px;	}
+.your_search	{	font-family:verdana; font-size:12px; color:#bf203a;	}
+.search_big_blue{	background-color:#C9DDF8; width:595px; font-family:verdana; font-style:italic; font-size:24px; text-indent:13px;
+					padding-top:5px; padding-bottom:5px; color:#2354a0; margin-top:5px; margin-bottom:5px;	}
+.search_has_found{	font-size:18px; font-style:normal;	}
+.results_per_page{	font-family:verdana; font-size:12px; color:#2354a0;	}
+.only_available	{	font-family:verdana; font-size:11px; color:#2354a0; margin-top:4px;	}
+.only_available a	{	font-style:italic;	}
+#choose_results td{	padding-right:15px;	}
+.search_table	{	width:600px;	}
+.search_table_space{font-size:2px; height:20px;	}
+.search_title	{	font-family:verdana; font-size:11px; color:#2354a0; font-weight:bold;	}
+/*added by HG 4/26/07: */
+a.search_title:link { color:#2354a0; text-decoration: none; }
+a.search_title:visited { color:#2354a0; text-decoration: none; }
+a.search_title:hover { color:#2354a0; text-decoration: none; }
+
+
+.search_author	{	font-family:verdana; font-size:10px; color:#2354a0; font-style:italic;	}
+.full_author	{	padding-top:3px; padding-bottom:3px;	}
+.search_author a{	color:#2354a0;	}
+.search_id		{	font-family:verdana; font-size:10px; color:#18396A;	}
+.search_prompt	{	font-family:verdana; font-size:9px; color:#2354a0;	padding-right:3px;	}
+.search_value	{	font-family:verdana; font-size:9px; color:#bf203a;	padding-right:8px;	}
+.search_details	{	font-family:verdana; font-size:9px; color:#2354a0;	}
+.search_post_title{	font-size:2px; height:3px;	}
+.search_post_details{	font-size:2px; height:4px;	}
+.search_pretable	{	font-size:2px; height:9px;	}
+.full_search_details .search_value {	padding-right:10px;	}
+.full_left_padding{	padding-left:4px;	}
+.full_search_icons td{	padding-right:5px;	}
+.search_introduction{	font-family:verdana; font-size:9px; color:#2354a0; font-weight:bold; padding-bottom:4px;	}
+.search_synopsis	{	font-family:verdana; font-size:10px;	color:#58595b;	}
+.title_match	{	width:595px; font-family:verdana; font-size:14px; text-indent:13px; font-weight:bold;
+					padding-bottom:5px; color:#bf203a; margin-bottom:5px;	}
+.search_rabbi	{	font-family:verdana; font-style:italic; color:#235fa0; font-weight:normal;	}
+
+.detailedsearch_text {	font-family:verdana; font-size:10px; color:#2354a0; /*font-weight:bold;*/	} /*HG 4/17/07*/
+
+
+/*	FOR	getting_started	*/
+
+.started_gap		{	font-size:2px;	line-height:2px; height:3px;	}
+.getting_started	{	font-family:verdana; font-size:11px;	color:#6d6e71; }
+.getting_started_right	{	padding-top:5px; padding-left:20px; padding-right:20px;
+							background-image:url(http://www.aishaudio.com/ssi/aish/graphics/getting_started/middle.jpg);	}
+/*	FOR	free_downloads	*/
+
+.click_to_choose	{	padding-right:7px;	}
+.click_to_choose label	{	font-family:verdana; font-size:10px; color:#18396A;	}
+
+/*	FOR	help	*/
+
+#top_questions		{	margin-left:15px; padding-left:10px;	}
+#top_questions li	{	font-weight:bold; padding-top:0; margin-top:5px; padding-bottom:5px; margin-bottom:0;	}
+#top_questions li, #top_questions a	{	font-family:verdana; font-size:12px; color:#2e5da5;	}
+#top_questions a	{	font-weight:normal;	}
+#top_questions a:hover{	text-decoration:none;	}
+#answers a			{	margin-top:5px; margin-bottom:8px; font-weight:bold;	}
+#answers div		{	margin-top:5px; margin-bottom:25px;	}
+#answers b			{	color:#bf203a;	}
+#answers a, #answers div	{	font-family:verdana; display:block; font-size:12px; line-height:20px; color:#6d6e71;	}
+#help_form select, #help_form input.text, #help_form textarea	{	width:250px;	}
+#help_form textarea	{	height:100px;	}
+#help_form td		{	padding-bottom:7px; padding-right:15px; color:#2E4976;	}
+
+/*	FOR standard text pages	*/
+
+.standard_wrapper	{	padding-right:25px;width:550px;	font-family:verdana; display:block; font-size:12px; line-height:20px; color:#6d6e71;	}
+.standard_header	{	font-family:verdana; font-weight:bold; font-size:12px; color:#bf203a;	}
+
+
+/*	FOR login	*/
+
+#login_table	{	background-color:#C9DDF8; width:549px;	}
+#login_table input.text, #login_table input.password	{	width:150px; height:14px;	}
+
+
+
+
+
+/*************Added by HG****************/
+
+.myLibraryArchivesTableTH {	
+	background-color:#C9DDF8; 
+	color:#C0203C;  /*red*/
+	font-family:tahoma, arial, helvetica;	
+	font-weight:normal;	
+	font-size:12.5px;	
+	padding-top:4px; 
+	padding-bottom:4px;	
+	padding-left:4px;
+	padding-right:4px;
+	text-align:center;
+ }
+
+.myLibraryArchivesTableTH.sort {
+    cursor: pointer;
+}
+a.myLibraryArchivesTableTH:link { color:#C0203C;  /*red*/	text-decoration: none;	font-size:12.5px;		font-family:tahoma, arial, helvetica; }
+a.myLibraryArchivesTableTH:visited { color:#C0203C;  /*red*/	text-decoration: none;	font-size:12.5px;		font-family:tahoma, arial, helvetica; }
+a.myLibraryArchivesTableTH:hover { color:#C0203C;  /*red*/	text-decoration: none;	font-size:12.5px;		font-family:tahoma, arial, helvetica; }
+
+.nolinkformat {
+	text-decoration:none;
+}
+
+
+
+#myLibraryArchives2 #myLibraryArchivesHeader .divider, #myLibraryArchives .divider {	width:1px;	background-color:white; }
+
+.blueboldtext {	
+	/*color:#C9DDF8; very light blue*/
+	color:#406CAD;
+	font-family:tahoma, arial, helvetica;	
+	font-weight:bold;	
+	font-size:12px;	
+}
+a.blueboldtext:link { color:#406CAD; text-decoration: underline;  }
+a.blueboldtext:visited { color:#406CAD;text-decoration: underline;  }
+a.blueboldtext:hover { color:#406CAD;text-decoration: underline;  }
+
+
+.bluetext {	
+	/*color:#C9DDF8; very light blue*/
+	color:#406CAD;
+	font-family:tahoma, arial, helvetica;	
+	font-size:12px;	
+}
+a.bluetext:link { color:#406CAD; text-decoration: underline;  }
+a.bluetext:visited { color:#406CAD;text-decoration: underline;  }
+a.bluetext:hover { color:#406CAD;text-decoration: underline;  }
+
+.blueboldtextsmall {	
+	/*color:#C9DDF8; very light blue*/
+	color:#406CAD;
+	font-family:tahoma, arial, helvetica;	
+	font-weight:bold;	
+	font-size:11px;	
+}
+a.blueboldtextsmall:link { color:#406CAD; text-decoration: underline;  }
+a.blueboldtextsmall:visited { color:#406CAD;text-decoration: underline;  }
+a.blueboldtextsmall:hover { color:#406CAD;text-decoration: underline;  }
+
+
+.bluetextsmall {	
+	/*color:#C9DDF8; very light blue*/
+	color:#406CAD;
+	font-family:tahoma, arial, helvetica;	
+	font-size:11px;	
+}
+a.bluetextsmall:link { color:#406CAD; text-decoration: underline;  }
+a.bluetextsmall:visited { color:#406CAD;text-decoration: underline;  }
+a.bluetextsmall:hover { color:#406CAD;text-decoration: underline;  }
+
+
+#toplogintxt2 {position:absolute; font-family:verdana; font-size:11px; color: white;  top: 30px; left: 80px;  z-index: 20; width: 600px;}
+#a.toplogintxt2:link { color:#669acc; text-decoration: none;  }
+#a.toplogintxt2:visited { color:#669acc;text-decoration: none;  }
+#a.toplogintxt2:hover { color:#669acc;text-decoration: none;  }
+
+#toplogintxt3 {font-family:verdana; font-size:11px; color: white;}
+#a.toplogintxt3:link { color:#669acc; text-decoration: none;  }
+#a.toplogintxt3:visited { color:#669acc;text-decoration: none;  }
+#a.toplogintxt3:hover { color:#669acc;text-decoration: none;  }
+
+
+.price_prompt	{	font-family:verdana; font-size:9px; color:#2354a0; }
+.price_value	{	font-family:verdana; font-size:9px; color:#bf203a; }
+.price_value_strikeout	{	font-family:verdana; font-size:9px; color:black; } /*strikeout doesn't work in css*/
+
+.left_indent	{	padding-left:13px; 	}
+
+
+#topTableCurve { background-color:#C6E6FD; } /*blue background*/
+
+.bigMessagetxt	{	font-family:verdana; font-size:14px; font-style:italic; color:#bf203a; font-weight:bold; } /* red ital text */
+.bigMessagetxtUnderline	{	font-family:verdana; font-size:14px; font-style:italic; color:#bf203a; font-weight:bold; border-bottom: thin solid #C9DDF8; 	} /* red ital text, blue line below */
+
+.bluebolditalictxt {	font-family:verdana; font-size:12px; color:#4F77B4; /*padding-top:25px;*/ font-weight:bold; font-style:italic;	}
+
+.red { color:#bf203a; }
+.redbold { color:#bf203a; font-weight:bold;}
+.redline { background-color:#bf203a; }
+
+a.red:link { color:#bf203a; text-decoration: none;  }
+a.red:visited { color:#bf203a;text-decoration: none;  }
+a.red:hover { color:#bf203a;text-decoration: none;  }
+
+a.redbold:link { color:#bf203a; text-decoration: none;  }
+a.redbold:visited { color:#bf203a;text-decoration: none;  }
+a.redbold:hover { color:#bf203a;text-decoration: none;  }
+
+.graytxt { color:#58595b; }
+.graybold { color:#58595b; font-weight:bold;}
+.grayline { background-color:#58595b; }
+
+a.graybold:link { color:#58595b; text-decoration: none;  }
+a.graybold:visited { color:#58595b;text-decoration: none;  }
+a.graybold:hover { color:#58595b;text-decoration: none;  }
+
+.tinyblue {	font-family:verdana; font-size:11px; color:#2354a0;	text-decoration:none; }
+
+.blue_banner_plain {	background-color:#C9DDF8; width:100%; font-family:verdana; font-size:24px; text-indent:13px; padding-top:5px; padding-bottom:5px; color:#2354a0; margin-top:5px; margin-bottom:5px;	}
+
+.blue_banner_title {	background-color:#C9DDF8; width:100%; font-family:verdana; font-size:24px; text-indent:13px; padding-top:5px; padding-bottom:5px; color:#2354a0; margin-top:5px; margin-bottom:5px; font-style:italic;	}
+
+/* account page */
+.myLibraryArchivesblueText {	
+	color:#2453a1;  /*blue*/
+	font-family: tacoma, arial, helvetica;	
+	font-weight:bold;	
+	font-size:12px;
+	text-decoration:none;
+}
+
+a.myLibraryArchivesblueText:link {	color: #2453a1;	text-decoration: none;}
+a.myLibraryArchivesblueText:visited {	color: #2453a1;	text-decoration: none;}
+a.myLibraryArchivesblueText:hover {	color: #C0203C;	text-decoration: none;}
+
+.myLibraryArchivesblueTextU {	
+	color:#2453a1;  /*blue*/
+	font-family: tacoma, arial, helvetica;	
+	font-weight:bold;	
+	font-size:12px;
+	text-decoration: underline;
+}
+
+a.myLibraryArchivesblueTextU:link {	color: #2453a1;	text-decoration: underline;}
+a.myLibraryArchivesblueTextU:visited {	color: #2453a1;	text-decoration: underline;}
+a.myLibraryArchivesblueTextU:hover {	color: #C0203C;	text-decoration: underline;}
+
+.blueheaderbackground	{	background-color:#C9DDF8; color:#2752A1; } 
+
+.myLibraryArchivesbluePrevNext {	
+	color:#669acc;  /*blue*/
+	font-family: tacoma, arial, helvetica;	
+	/*font-weight:bold;*/	
+	font-size:12px;
+	text-decoration:none;
+}
+
+.libraryblueboldsmall {	
+	/*color:#C9DDF8; very light blue*/
+	color:#406CAD;
+	font-family: arial, helvetica;	
+	font-weight:bold;	
+	font-size:11px;	
+}
+a.libraryblueboldsmall:link { color:#406CAD; text-decoration: underline;  }
+a.libraryblueboldsmall:visited { color:#406CAD;text-decoration: underline;  }
+a.libraryblueboldsmall:hover { color:#406CAD;text-decoration: underline;  }
+
+.search_big_blue_rabbitext	{	font-family:verdana; font-style:italic; font-size:24px; }
+
+.resultstableblack {	
+	font-family:verdana, tahoma, arial, helvetica;	
+	font-size:11px;	
+}
+
+.resultstablebluelink {	
+	/*color:#C9DDF8; very light blue*/
+	color:#406CAD;
+	font-family:verdana, tahoma, arial, helvetica;	
+	font-weight:bold;	
+	font-size:11px;	
+}
+a.resultstablebluelink:link { color:#406CAD; text-decoration: underline;  }
+a.resultstablebluelink:visited { color:#406CAD;text-decoration: underline;  }
+a.resultstablebluelink:hover { color:#406CAD;text-decoration: underline;  }
+
+/* taken from search_introduction - same but without bold */
+.search_downloadunits {	font-family:verdana; font-size:9px; color:#2354a0; padding-bottom:4px;	} 
+
+
+/*	OLD STYLES -- PUT HERE TO MINIMIZE PAGE CHANGES	*/
+
+.minitext { 
+	font-size:10px;
+}
+/* don't put this in because if there is extra space in the div it shows up as blue spots. Defining as copy of maintitle (from cartstyles below) for lack of another reliable design 6/14/07
+.searchcategorydisplay	{	width:605px; background-color:#C9DDF8; color:#2752A1; margin-bottom:0px; text-indent:18px;
+	font-family:tahoma;	font-style:italic;	font-size:24px;	padding-top:4px; padding-bottom:4px;	} 
+*/
+/* copy of welcome2Div */
+
+
+.searchcategorydisplay {
+	color: #3065CD;
+	font-weight : bold;
+	font-size:18px;
+}
+
+.carttext {
+	font-size:10px;
+	color: black;
+}
+
+.box { /*mimics a textbox/select box but using a div tag.*/
+	border: 1px solid #7F9DB9;
+	padding-left: 4px;
+	padding-top: 2px;
+	padding-bottom: 2px;
+}
+
+/* from /ssi/cartstyles.css - will be double-defined on cart pages */
+
+.maintitle {
+	color: #3065CD;
+	font-weight : bold;
+	font-size:18px;
+}
+
+/* from ssi/aish/graphics/aishaudio_style.css */
+
+.bodytextbig {
+	FONT-SIZE: 14px; 
+}
+.bodytextbigb {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; 
+}
+.bodytextbigr {
+	FONT-SIZE: 14px; COLOR: #cc0000
+}
+.bodytextbigrb {
+	FONT-WEIGHT: bold; FONT-SIZE: 14px; COLOR: #cc0000
+}
+
+.bodytextmedrb {
+	FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #cc0000
+}
+
+#homebox {
+    position:relative; background-color: #B6E3F8;
+	border-color: #B6E3F8;
+	border-spacing: 0px;
+	border: 0px;
+
+}
+
+#homebox2 {
+    background-color: #B6E3F8;
+	border-color: #B6E3F8;
+	border-spacing: 0px;
+	border: 0px;
+}
+
+
+#homebox3 {
+    position:relative; background-color: #B6E3F8;
+	width:605px;
+	left: 2px;
+	margin:0 auto;
+	text-align:left;
+	border-color:#B6E3F8;
+	border-spacing: 0px;
+	border: 0px;
+	
+}
+
+#homeboxwhite {
+     background-color: white;
+}
+
+
+#page {
+	width:883px;
+	margin:0 auto;
+	text-align:left;
+    position:relative;
+}
+
+.topics {background-color: #FFFFFF}
+.topicsfont {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #5DB3E2}
+.topicsfontu {FONT-WEIGHT: bold; FONT-SIZE: 12px; COLOR: #5DB3E2; text-decoration: underline;}
+
+#midArticlesBg {
+	position:absolute;
+	top: 505px;
+	left: 199px;
+	font-family:Arial;
+	width:600px;
+	background:url(http://image.aish.com/midArticles-bg_451x7.gif);
+	background-repeat:repeat-y;
+	margin-top:4px;
+	z-index:1;
+	
+}
+#midArticlesBg .right {width: 290px;float: right; z-index:1; } 
+#midArticlesBg .left {width: 300px; padding-left:6px; z-index:1;} 
+#midArticlesBg h1{margin:0; padding:0; width:260px; display:block; text-decoration:none; font-family:Arial; border-bottom: 1px #D47B21 solid; font-size: 14px; height:16px; font-weight: bold; color: #007DC0;}
+.midArticlesBg h1 a:link{width:260px;display:block; margin: 0 0 0 0; text-decoration:none; font-family:Arial; border-bottom: 1px #D47B21 solid; font-size: 14px; height:16px; font-weight: bold; color: #007DC0; background: url(http://image.aish.com/more-arrow-orange_11x36.gif) right 6px no-repeat;}
+.midArticlesBg h1 a:visited{width:260px;display:block; margin: 0 0 0 0; text-decoration:none; font-family:Arial; border-bottom: 1px #D47B21 solid; font-size: 14px; height:16px; font-weight: bold; color: #007DC0; background: url(http://image.aish.com/more-arrow-orange_11x36.gif) right 6px no-repeat;}
+.midArticlesBg h1 a:hover{text-decoration:none;}
+.midArticlesBg ul { width:260px; list-style: none;margin: 0 0 0 0;padding: 0 0 0 0;font-size:12px; color:#003498; font-weight:bold; font-family:Arial;}
+.midArticlesBg ul a:link{color:#818284; text-decoration: none; } 
+.midArticlesBg ul a:visited{color:#003498; text-decoration: none; }
+.midArticlesBg ul a:hover {color:#ffffff; background-color:#003498;}
+.midArticlesBg li {list-style: none; margin:6px 0 6px 0; padding:0 0 0 0; color: #818284;}
+.midArticlesBg .bottom {clear: both;height: 1px; }form{padding:0px; margin:0px;} 
+
+#site_email	    { position:absolute; top:3px; left:180px; font-family:verdana;  font-size:11px; letter-spacing:2px; z-index:9;}
+#site_arrow	    { position:absolute; top:5px; left:299px; font-family:verdana;  font-size:11px; letter-spacing:2px; z-index:9;}
+
+
+
+/* // Moved to main_styles2_inc.php because of need for php variables for images to appear on secure server
+#menu			{	border-bottom:5px solid #2569B0; list-style: none; margin:0; padding:0; z-index: 1;}
+#menu li		{	display:inline;}
+#menu a			{	font-family:verdana; font-size:12px; /*color:#D2E0F2;* /  text-decoration:none; padding-top:5px; padding-bottom:6px; display:block; background-color:#B6E6FC; background-image: url(<?= $baseDomain ?>/ssi/aish/graphics/common/arrow.gif); padding-left:16px; background-repeat:no-repeat; z-index: auto;
+					background-position: 3px 9px; border-bottom:1px solid #2569B0;
+}
+
+#menu a:hover, #menu a.sfhover { background-color:#1c3b76;	 color:#FFFFFF;	}
+#menu ul		{	float: left; list-style: none; position: absolute; left: -999em; top: auto; height: auto; width:173px;
+					padding:0; margin: 0; margin-left:150px; margin-top:-26px;border-left:1px solid #2569B0; z-index:9; }
+#menu li li		{	padding:0 0 0 0; margin:0; width:100%; height:100%;	}
+#menu li ul a	{	width:100%;	height:100%; font-family:verdana; font-size:12px; /*color:#D2E0F2;* /  text-decoration:none; padding-top:5px; padding-bottom:6px; z-index:9; 
+					display:block; background-image: url(<?= $baseDomain ?>/ssi/aish/graphics/common/arrow.gif); padding-left:16px;
+					background-repeat:no-repeat; background-position: 3px 9px; border-bottom:1px solid #2569B0;	}
+#menu li a:visited   {font-family:verdana; font-size:12px; color:#136BB2; text-decoration:none; padding-top:5px; padding-bottom:6px; display:block; background-color:#B6E6FC;}
+#menu li a  {font-family:verdana; font-size:12px; color:#136BB2; text-decoration:none; padding-top:5px; padding-bottom:6px; display:block; background-color:#B6E6FC;}
+#menu a.1:visited   {font-family:verdana; font-size:12px;  text-decoration:none; padding-top:5px; padding-bottom:6px; display:block; background-color:#B6E6FC;}
+#menu ul li a:hover, #menu ul li a.sfhover {	background-color:#1c3b76;}
+#menu li:hover ul, #menu li li:hover ul, #menu li li li:hover ul, #menu li.sfhover ul, #menu li li.sfhover ul, #menu li li li.sfhover ul {	left: auto;	}
+*/
+
+#site_speakers	{ position:absolute; top: 204px; left: 40px;  font-size: 9px; font-family:Arial, Helvetica, sans-serif;
+z-index: 1;}
+
+#site_speakers2	{ position:absolute; top: 200px; left: 40px;  font-size: 9px; font-family:Arial, Helvetica, sans-serif;
+z-index: 1;}
+
+a.whit:link{	color: #ffffff;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+	
+a.whit:visited{	color: #ffffff;
+font-family: Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+}
+
+/*From old stylesheet: */
+
+img	{	border-width:0;	}
+form	{	padding:0; margin:0;	}
+
+/*Added by HG - for header*/
+.headerverticallinered {color: #FF6600} 
+
+.pos_it {
+left:435px;
+padding-top:3px;
+position:absolute;
+top:365px;
+z-index:25;
+}
+.pos_it_login {
+left:95px;
+padding-top:3px;
+position:absolute;
+top:100px;
+z-index:25;
+}
+.freetoploginformtext {
+color:#0082A2;
+font-size:12px;
+font-weight:bold;
+}
+.freetoploginformforgotpwtext {
+color:#0082A2;
+font-size:10px;
+font-weight:bold;
+text-decoration:none;
+}
+.left
+{
+    float:left;
+}
+.clear
+{
+    clear:both;
+}
+
+.shopping-transactions tr td
+{
+    padding:2px 10px 3px 0px;
+}
+                
+.shopping-transactions thead td
+{
+    font-weight:bold;
+    padding:5px 10px 5px 0px;
+}
+            
+            /* Styles for validation helpers
+-----------------------------------------------------------*/
+.field-validation-error
+{
+    color: #ff0000;
+}
+
+.field-validation-valid
+{
+    display: none;
+}
+
+.input-validation-error
+{
+    border: 1px solid #ff0000;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors
+{
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.validation-summary-valid
+{
+    display: none;
+}

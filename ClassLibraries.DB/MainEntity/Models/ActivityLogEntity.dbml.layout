@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 17.75, 8.5" name="ActivityLogEntity">
+  <DataContextMoniker Name="/ActivityLogEntityDataContext" />
+  <nestedChildShapes>
+    <classShape Id="b4fc63c0-bf6c-4a98-a414-5a7040881dc7" absoluteBounds="6.25, 1.125, 2, 1.1939925130208331">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ActivityLogXrefUser" />
+      <nestedChildShapes>
+        <elementListCompartment Id="3e148554-c806-4067-a07c-a8e69ae7de5d" absoluteBounds="6.265, 1.585, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="e1e165ab-a16f-4890-9485-34922eb04e76" absoluteBounds="0.75, 3.875, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ActivityLogType" />
+      <nestedChildShapes>
+        <elementListCompartment Id="8a9f5cd9-389d-4801-a005-69e80e1a4f29" absoluteBounds="0.765, 4.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="8693f9c5-ddae-4c99-85d8-c636bc1bad33" absoluteBounds="6.25, 3, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ActivityLogXrefEmail" />
+      <nestedChildShapes>
+        <elementListCompartment Id="32635555-a2b5-4548-b2fa-b70216fd9ee0" absoluteBounds="6.265, 3.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="1d5c659d-1478-4fbf-95d5-b471b1f4e121" absoluteBounds="6.25, 4.875, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ActivityLogXrefEntityItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0c19ff49-a180-4377-bb52-09ecc1a29338" absoluteBounds="6.265, 5.335, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="45ff631a-35b6-4226-a16e-55e2a98b5dad" absoluteBounds="6.25, 6.75, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ActivityLogXrefShopping" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a974863b-9490-42c7-b1c5-58bb40fe24b4" absoluteBounds="6.265, 7.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="7bbe0b4e-4f30-4481-b6dc-1c5b3d317a33" absoluteBounds="3.375, 3.75, 2, 1.5785953776041666">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ActivityLog" />
+      <nestedChildShapes>
+        <elementListCompartment Id="5f861d36-c741-4dda-bc12-3655cc7a6ec5" absoluteBounds="3.3899999999999997, 4.21, 1.9700000000000002, 1.0185953776041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(5.375 : 3.75); (5.75 : 3.375); (5.75 : 1.72199625651042); (6.25 : 1.72199625651042)]" fixedFrom="NotFixed" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/ActivityLog/ActivityLog_ActivityLogXrefUser" />
+      <nodes>
+        <classShapeMoniker Id="7bbe0b4e-4f30-4481-b6dc-1c5b3d317a33" />
+        <classShapeMoniker Id="b4fc63c0-bf6c-4a98-a414-5a7040881dc7" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 3.92307657877604); (6.25 : 3.92307657877604)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/ActivityLog/ActivityLog_ActivityLogXrefEmail" />
+      <nodes>
+        <classShapeMoniker Id="7bbe0b4e-4f30-4481-b6dc-1c5b3d317a33" />
+        <classShapeMoniker Id="8693f9c5-ddae-4c99-85d8-c636bc1bad33" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(5.375 : 5.02492390950521); (6.25 : 5.02492390950521)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/ActivityLog/ActivityLog_ActivityLogXrefEntityItem" />
+      <nodes>
+        <classShapeMoniker Id="7bbe0b4e-4f30-4481-b6dc-1c5b3d317a33" />
+        <classShapeMoniker Id="1d5c659d-1478-4fbf-95d5-b471b1f4e121" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(4.375 : 5.32859537760417); (4.375 : 7.34699625651042); (6.25 : 7.34699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/ActivityLog/ActivityLog_ActivityLogXrefShopping" />
+      <nodes>
+        <classShapeMoniker Id="7bbe0b4e-4f30-4481-b6dc-1c5b3d317a33" />
+        <classShapeMoniker Id="45ff631a-35b6-4226-a16e-55e2a98b5dad" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(2.75 : 4.47199625651042); (3.375 : 4.47199625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/ActivityLogType/ActivityLogType_ActivityLog" />
+      <nodes>
+        <classShapeMoniker Id="e1e165ab-a16f-4890-9485-34922eb04e76" />
+        <classShapeMoniker Id="7bbe0b4e-4f30-4481-b6dc-1c5b3d317a33" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="55b21b67-df3c-4000-bdfc-3f69367a1bcf" absoluteBounds="9.625, 3, 2, 1.1939925130208327">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/Email" />
+      <nestedChildShapes>
+        <elementListCompartment Id="0666d161-62ad-4e0d-9f6f-4e31d68b8589" absoluteBounds="9.64, 3.46, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.625 : 3.59699625651042); (8.25 : 3.59699625651042)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/Email/Email_ActivityLogXrefEmail" />
+      <nodes>
+        <classShapeMoniker Id="55b21b67-df3c-4000-bdfc-3f69367a1bcf" />
+        <classShapeMoniker Id="8693f9c5-ddae-4c99-85d8-c636bc1bad33" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="4d4aba32-8560-4932-9132-d351b64ac883" absoluteBounds="9.625, 4.875, 2, 2.9247054036458331">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/EntityItem" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6624211b-f152-460a-b1c1-63ba600bb1a8" absoluteBounds="9.64, 5.335, 1.9700000000000002, 2.364705403645833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(9.625 : 5.5713525390625); (8.25 : 5.5713525390625)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/EntityItem/EntityItem_ActivityLogXrefEntityItem" />
+      <nodes>
+        <classShapeMoniker Id="4d4aba32-8560-4932-9132-d351b64ac883" />
+        <classShapeMoniker Id="1d5c659d-1478-4fbf-95d5-b471b1f4e121" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="84467e1d-aed0-4401-ac88-79f6d693b552" absoluteBounds="13, 3.875, 2, 2.1554996744791666">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ClassEntity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="338adedb-f6c4-4587-931f-eb14e2dcbf14" absoluteBounds="13.015, 4.335, 1.9700000000000002, 1.5954996744791665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.625 : 5.45274983723958); (13 : 5.45274983723958)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/EntityItem/EntityItem_ClassEntity" />
+      <nodes>
+        <classShapeMoniker Id="4d4aba32-8560-4932-9132-d351b64ac883" />
+        <classShapeMoniker Id="84467e1d-aed0-4401-ac88-79f6d693b552" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="18d3f6d6-9531-4fa6-bf53-f8fce280a432" absoluteBounds="13, 6.5, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/ProductEntity" />
+      <nestedChildShapes>
+        <elementListCompartment Id="450ffb5a-5649-475e-8af8-1ce33894ed5a" absoluteBounds="13.015, 6.96, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <associationConnector edgePoints="[(11.625 : 7.14985270182292); (13 : 7.14985270182292)]" fixedFrom="NotFixed" fixedTo="NotFixed">
+      <AssociationMoniker Name="/ActivityLogEntityDataContext/EntityItem/EntityItem_ProductEntity" />
+      <nodes>
+        <classShapeMoniker Id="4d4aba32-8560-4932-9132-d351b64ac883" />
+        <classShapeMoniker Id="18d3f6d6-9531-4fa6-bf53-f8fce280a432" />
+      </nodes>
+    </associationConnector>
+    <classShape Id="8e78e2c9-2691-4b3e-b085-da5222acb940" absoluteBounds="15.5, 3.875, 2, 3.8862125651041666">
+      <DataClassMoniker Name="/ActivityLogEntityDataContext/Membership" />
+      <nestedChildShapes>
+        <elementListCompartment Id="6155ee15-4ea8-4b1e-a8e2-be773a41addd" absoluteBounds="15.515, 4.335, 1.9700000000000002, 3.3262125651041665" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

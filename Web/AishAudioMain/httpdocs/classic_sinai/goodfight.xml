@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title>Marriage: How to Have a Good Fight - Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Rabbi Yosef Chaim Meyer</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/marriage_how_to_fight_120x9.gif"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+			<item>
+				<title>Marriage: How to Have a Good Fight</title>
+				<description>Rabbi Meyer gives practical marriage advice for the non-angelic. Refreshing, real and user friendly.</description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Rabbi Yosef Chaim Meyer</itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_MT613-Fight.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:31:0 -0500</pubDate>
+			</item>
+			
+											
+			</channel>
+</rss>

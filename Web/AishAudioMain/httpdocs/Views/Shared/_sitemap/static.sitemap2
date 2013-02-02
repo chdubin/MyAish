@@ -1,0 +1,71 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode description="for static view pages">
+    <siteMapNode description="tarah portions" >
+      <siteMapNode url="/search/{0}/cat/Rosh Hashana/words/hashana" title="Rosh Hashana" description="Genesis">
+        <siteMapNode url="/search/{0}/title/bereishis/cat/Bereishis" title="Berieshis" description="123" />
+        <siteMapNode url="/search/{0}/title/noach/cat/Noach" title="Noach" description="222" />
+        <siteMapNode url="/search/{0}/title/lecha/cat/Lech Lecha" title="Lech Lecha" />
+        <siteMapNode url="/search/{0}/title/vayeira/cat/Vayeira" title="Vayeira" />
+        <siteMapNode url="/search/{0}/title/chayei/cat/Chayei Sarah" title="Chayei Sara" />
+        <siteMapNode url="/search/{0}/title/toldos/cat/Toldos" title="Toldos" />
+        <siteMapNode url="/search/{0}/title/vayeitzei/cat/Vayeitzei" title="Vayeitzei" />
+        <siteMapNode url="/search/{0}/title/vayishlach/cat/Vayishlach" title="Vayishlach" />
+        <siteMapNode url="/search/{0}/title/vayeishev/cat/Vayeishev" title="Vayeshev" />
+        <siteMapNode url="/search/{0}/title/mikeitz/cat/Mikeitz" title="Mikeitz" />
+        <siteMapNode url="/search/{0}/title/vayigash/cat/Vayigash" title="Vayigash" />
+        <siteMapNode url="/search/{0}/title/vayechi/cat/Vayechi" title="Vayechi" />
+      </siteMapNode>
+      <siteMapNode url="/search/{0}/cat/Yom Kippur/words/kippur" title="Yom Kippur" description="Exodus">
+        <siteMapNode url="/search/{0}/title/shemos/cat/Shemos" title="Shemos" />
+        <siteMapNode url="/search/{0}/title/va'eira/cat/Va'eira" title="Va'eira" />
+        <siteMapNode url="/search/{0}/cat/Bo/words/parshat_bo" title="Bo" />
+        <siteMapNode url="/search/{0}/title/beshalach/cat/Beshalach" title="Beshalach" />
+        <siteMapNode url="/search/{0}/title/Yisro/cat/Yisro" title="Yisro" />
+        <siteMapNode url="/search/{0}/title/mishpatim/cat/Mishpatim" title="Mishpatim" />
+        <siteMapNode url="/search/{0}/title/terumah/cat/Terumah" title="Terumah" />
+        <siteMapNode url="/search/{0}/title/tetzaveh/cat/Tetzaveh" title="Tetzaveh" />
+        <siteMapNode url="/search/{0}/title/ki sisa/cat/Ki Sisa" title="Ki Sisa" />
+        <siteMapNode url="/search/{0}/title/vayakhail/cat/Vayakhail" title="Vayakhail" />
+        <siteMapNode url="/search/{0}/title/pekudei/cat/Pekudei" title="Pekudei" />
+      </siteMapNode>
+      <siteMapNode url="/search/{0}/cat/Sukkot/words/sukkos sukkot" title="Sukkot" description="Leviticus">
+        <siteMapNode url="/search/{0}/title/vayikra/cat/Vayikra" title="Vayikra" />
+        <siteMapNode url="/search/{0}/title/tzav/cat/Tzav" title="Tzav" />
+        <siteMapNode url="/search/{0}/title/shemini/cat/Shemini" title="Shemini" />
+        <siteMapNode url="/search/{0}/title/tazria/cat/Tazria" title="Tazria" />
+        <siteMapNode url="/search/{0}/title/metzora/cat/Metzora" title="Metzora" />
+        <siteMapNode url="/search/{0}/title/acharei/cat/Acharei Mot" title="Acharei Mot" />
+        <siteMapNode url="/search/{0}/title/kedoshim/cat/Kedoshim" title="Kedoshim" />
+        <siteMapNode url="/search/{0}/title/emor/cat/Emor" title="Emor" />
+        <siteMapNode url="/search/{0}/title/behar/cat/Behar" title="Behar" />
+        <siteMapNode url="/search/{0}/title/bechukosai/cat/Bechukosai" title="Bechukosai" />
+      </siteMapNode>
+      <siteMapNode url="/search/{0}/cat/Pesach/words/passover pesach" title="Pesach" description="Numbers">
+        <siteMapNode url="/search/{0}/title/bamidbar/cat/Bamidbar" title="Bamidbar" />
+        <siteMapNode url="/search/{0}/title/naso/cat/Naso" title="Naso" />
+        <siteMapNode url="/search/{0}/title/beha'aloscha/cat/Beha'aloscha" title="Beha'aloscha" />
+        <siteMapNode url="/search/{0}/title/shelach/cat/Shelach" title="Shelach" />
+        <siteMapNode url="/search/{0}/title/korach/cat/Korach" title="Korach" />
+        <siteMapNode url="/search/{0}/title/chukas/cat/Chukas" title="Chukas" />
+        <siteMapNode url="/search/{0}/title/balak/cat/Balak" title="Balak" />
+        <siteMapNode url="/search/{0}/title/pinchas/cat/Pinchas" title="Pinchas" />
+        <siteMapNode url="/search/{0}/title/mattos/cat/Mattos" title="Mattos" />
+        <siteMapNode url="/search/{0}/title/mattos/cat/Massai" title="Massai" />
+      </siteMapNode>
+      <siteMapNode url="/search/{0}/cat/Shavuot/words/shavuos shavuot" title="Shavuot" description="Deuteronomy">
+        <siteMapNode url="/search/{0}/title/devarim/cat/Devarim" title="Devarim" />
+        <siteMapNode url="/search/{0}/title/va'eschanan/cat/Va'eschanan" title="Va'eschanan" />
+        <siteMapNode url="/search/{0}/title/eikev/cat/Eikev" title="Eikev" />
+        <siteMapNode url="/search/{0}/title/re'eh/cat/Re'eh" title="Re'eh" />
+        <siteMapNode url="/search/{0}/title/shoftim/cat/Shoftim" title="Shoftim" />
+        <siteMapNode url="/search/{0}/title/ki seitzei/cat/Ki Setzei" title="Ki Setzei" />
+        <siteMapNode url="/search/{0}/title/ki savo/cat/ki savo" title="Ki Savo" />
+        <siteMapNode url="/search/{0}/title/nitzavim/cat/Nitzavim" title="Nitzavim" />
+        <siteMapNode url="/search/{0}/title/vayeilech/cat/Vayeilech" title="Vayelech" />
+        <siteMapNode url="/search/{0}/title/ha'azinu/cat/Ha'azinu" title="Ha'azinu" />
+        <siteMapNode url="/search/{0}/title/zos habracha/cat/Zos HaBracha" title="V'Zos HaBracha" />
+      </siteMapNode>
+    </siteMapNode>
+  </siteMapNode>
+</siteMap>

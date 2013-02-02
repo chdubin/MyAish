@@ -1,0 +1,155 @@
+﻿<%@ Master Language="C#" Inherits="System.Web.Mvc.ViewMasterPage" MasterPageFile="~/Views/Shared/mainbr.Master" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="title" runat="server">
+    <asp:ContentPlaceHolder ID="title" runat="server" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+    <asp:ContentPlaceHolder ID="head" runat="server" />
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="body" runat="server">
+    <% string menuActionName = MainBL.CookieBL.ShowDetailed(Request.Cookies, Response.Cookies) ? "resultsdetail" : "results"; %>
+    <div id="aside">
+        <h1>
+            <%=Html.ActionLink("Aish Audio", "Index","Home")%></h1>
+             <form action="#" method="get" id="search"><input type="text" id="searchBox" value="Search Topics or Titles" 
+            onclick="if($(this).val()=='Search Topics or Titles')$(this).val('')" onkeypress="return onPressKeySearch(event, this)" style="height:auto;float:left;margin-right:1ex" />
+            <input type="hidden" value="<%=Url.Action(menuActionName, "search")%>/" />
+            <input type="image" onclick="return SearchByWords(this)" class="submit-btn" src="<%=Url.Image("searchSbm.jpg") %>" style="width:17px;height:18px;float:left" />
+            <a href="<%=Url.Action("searchform", "search")%>">Advanced Search</a>
+        </form>
+        <!--Begin Menu-->
+        <ul id="nav">
+            <li class="dark">
+                <select onchange="return sortBySpeaker(this)">
+                    <option value="">Speakers</option>
+                    <% if (ViewData["Speakers"] != null)
+                       { %>
+                       <% foreach (MainEntity.Models.Speaker.EntityItem item in (MainEntity.Models.Speaker.EntityItem[])ViewData["Speakers"])
+                          { %>
+                          <option value="<%= Url.Action(menuActionName, "search") + "/speaker/" +   HttpUtility.UrlEncode(item.title.Replace(" ", "-")) %>"><%= item.title %>...</option>
+                       <% } %>
+                    <% } %>
+                </select>
+            </li>
+            <li class="dark_blue"><a href="<%=Url.Action("fulllist", "Search")%>">Full list of classes</a></li>
+            <li><a href="<%=Url.Action(menuActionName, "search")%>/code/wn">Rav Noah Weinberg</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/48-Ways">48 Ways to Wisdom</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Foundations">Jewish Foundations</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Lakewood">Lakewood Seminar</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Constant">Constant Mitzvot</a></li>
+                </ul>
+            </li>
+            <li><a href="<%=Url.Action("TorahPortions", "static")%>">Torah Portion</a></li>
+            <li><a href="#">Spirituality</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Belief">Belief</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Mysticism">Mysticism</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Prayer">Prayer</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Jewish Essentials</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Shabbat">Shabbat</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Philosophy">Philosophy</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Jewish-Law">Jewish Law</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Kosher">Keeping Kosher</a></li>
+                </ul>
+            </li>
+            <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Jewish-History">History</a></li>
+            <li><a href="#">Jewish Issues</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Ethics-and-Morality">Ethics & Morality</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Politics">Politics</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Science">Science</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/antisemitism">Anti-Semitism</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Holocaust">Holocaust</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Missionaries">Anti-Missionary</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Christianity">Judaism / Christianity</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Holidays</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/High-Holidays">High Holidays</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Sukkot">Sukkot</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Chanukah">Chanukah</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Tu-B'Shvat">Tu B'Shvat</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Purim">Purim</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Passover">Passover</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/The-Omer">The Omer</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Shavuot">Shavuot</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Tisha B'Av">3 Weeks - Tisha BAv</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Belief / Practice</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Personal-Growth">Personal Growth</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Philosophy">Philosophy / Outlook</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Halacha">Halacha</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Marriage / Family</a>
+                <ul>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Women-and-Judaism">Women & Judaism</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Dating">Dating</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Marriage">Marriage</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Parenting">Parenting</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Education">Education</a></li>
+                    <li><a href="<%=Url.Action(menuActionName, "search")%>/cat/Parenting">Special Children</a></li>
+                </ul>
+            </li>
+        </ul>
+        <!--End Menu-->
+        <ul id="gettingStarted">
+            <li><a class="start" href="<%= Url.RouteUrl("GSHowAishAudioWorksPage") %>">Getting Started</a> </li>
+            <li><a class="domain" href="http://www.aish.com">www.aish.com</a></li>
+        </ul>
+        <ul class="promotions">
+            <li><a href="<%= (MainEntity.Models.User.Membership)ViewData["MembershipUser"] == null ? Url.RouteUrl("Register") :  Url.RouteUrl("Offerings") %>">
+                <img src="<%= Url.Image("discount.jpg") %>" alt="" /></a></li>
+            <li><a href="<%= Url.RouteUrl("IPodOffer") %>">
+                <img src="<%= Url.Image("ipod_phone.jpg") %>" alt="" /></a></li>
+            <li><a href="<%= Url.RouteUrl("FreeMP3") %>">
+                <img src="<%= Url.Image("free_player.jpg") %>" alt="" /></a></li>
+        </ul>
+    </div>
+    <div id="main">
+        <div id="header">            
+            <% Html.RenderPartial("~/Views/Account/HeaderLoginSection.ascx", new Main.Models.LogOnModel()); %>
+        </div>
+        <div id="content">
+            <ul id="topContent">
+                <li class="first">Jewish mp3 downloads</li>
+                <li>Torah audio free listening</li>
+                <li>Judaism mp3s, tapes, CDs</li>
+            </ul>
+            <asp:ContentPlaceHolder ID="body" runat="server" />
+        </div>
+    </div>
+
+    
+    <script type="text/javascript">
+        function sortBySpeaker(sel) {
+            if (sel.selectedIndex != 0)
+                document.location.href = sel.options[sel.selectedIndex].value;
+
+            return false;
+        }
+
+        function SearchByWords(inp) {
+            var seacrh = encodeURIComponent($(inp).prev().prev().val().replace(/ /g, '-'));
+            document.location.href = $(inp).prev().val() + '?words=' + seacrh + "&code=" + seacrh;
+
+            return false;
+        }
+
+        function onPressKeySearch(evt, obj) {
+            evt = (evt) ? evt : event;
+            var charCode = (evt.which) ? evt.which : evt.keyCode;
+            if (charCode == 13) {
+                SearchByWords($(obj).next().next());
+                return false;
+            }
+        }
+    </script>
+</asp:Content>

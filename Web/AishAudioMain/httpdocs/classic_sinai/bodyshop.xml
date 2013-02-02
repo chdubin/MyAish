@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+
+      <channel>
+            <title> Spiritual Bodyshop: Classic Sinai Podcast</title>
+			<itunes:description>Jewish audio mp3s for the curious mind.</itunes:description>
+			<itunes:author>Rabbi Yom Tov Glaser</itunes:author>
+			<itunes:image href="http://aish.teamgenesis.com/ssi/aish/graphics/titles/spiritual_bodyshop_120x90.gif"/>
+				<description>When you dent your car you take it to the shop, but where do you go to fix up your soul? Hear a down to earth talk on a viable option for spiritual repair. </description>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+
+			<link>http://www.classicsinai.com</link>
+			<lastBuildDate>Wed, 14 Mar 2007 2:55:0 -0500</lastBuildDate>
+			<pubDate>Wed, 14 Mar 2007 2:55:0 -0500</pubDate>
+			<generator> Generated manually </generator>
+			
+			<item>
+				<title>Spiritual Bodyshop</title>
+				<description>When you dent your car you take it to the shop, but where do you go to fix up your soul? Hear a down to earth talk on a viable option for spiritual repair. </description>
+				<link>http://www.classicsinai.com</link>
+				<itunes:author>Rabbi Yom Tov Glaser  </itunes:author>
+				<enclosure url= "http://docs.torahmedia.com/sites/aish/files/CS_GT789A-Spiritual.mp3" length="9352592" type="audio/mpeg"/>
+				<itunes:category text="Religion &amp; Spirituality">
+				<itunes:category text="Judaism"/>
+				</itunes:category>
+				<pubDate>Wed, 14 Mar 2007 2:52:0 -0500</pubDate>
+			</item>
+											
+			</channel>
+</rss>
